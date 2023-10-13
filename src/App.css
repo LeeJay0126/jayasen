@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+
+/**
+ 
+General CSS
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+- Fonts
+headers:
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+- Line heights
+Defaults: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+-- Colors
+TBA
+
+**/
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  /*
+      Needs to be changed later
+  */
+  font-family: Roboto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  text-rendering: optimizeLegibility;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,165 @@
+/**********************************************************************************************
+    CSS For Menu Bar
+***********************************************************************************************/
+
+/**********************************************************************************************
+    Layouts
+***********************************************************************************************/
+
+.menuBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1700px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**********************************************************************************************
+    Logo
+***********************************************************************************************/
+/* Desktop 1920 - 1280 */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.logoLetters {
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.logoFooters {
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/**********************************************************************************************
+    Menu Options
+***********************************************************************************************/
+
+.optionList {
+    width: 30%;
+    min-width: 400px;
+    margin-right: 10%;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+}
+
+.menuOptions {
+    cursor: pointer;
+}
+
+.menuOptions a {
+    text-decoration: none;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    /*Change to white Later */
+    color: white;
+    font-weight: 400;
+}
+
+.hoveredMenuOptions a {
+    opacity: 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    font-weight: 400;
+}
+
+.hoveredMenuOptions a:hover {
+    color: white;
+    opacity: 100%;
+}
+
+/**********************************************************************************************
+    For viewport >= 1200
+***********************************************************************************************/
+
+@media only screen and (min-width: 1200px) and (max-width: 1700px) {
+    .menuBar {
+        max-width: 1100px;
+        padding-top: 75px;
+    }
+
+    .logoLetters {
+        font-size: 32px;
+        letter-spacing: 4px;
+    }
+
+    .logoFooters {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+    .menuOptions a {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .hoveredMenuOptions a {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .menuBar {
+        max-width: 900px;
+        padding-top: 50px;
+    }
+
+    .logoLetters {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    .logoFooters {
+        font-size: 12px;
+        letter-spacing: 3.5px;
+    }
+
+    .menuOptions a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+
+    .hoveredMenuOptions a {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}
+
+/**********************************************************************************************
+    For viewport >= 992
+***********************************************************************************************/
+@media only screen and (max-width: 992) {}
+
+/**********************************************************************************************
+    For viewport >= 768
+***********************************************************************************************/
+@media only screen and (max-width: 768px) {}
+
+/**********************************************************************************************
+    For viewport >= 576
+***********************************************************************************************/
