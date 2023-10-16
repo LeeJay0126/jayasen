@@ -1,3 +1,5 @@
+import LatestProjectComponent from "./LatestProjectComponent";
+
 
 const LatestProject = () => {
 
@@ -10,6 +12,9 @@ const LatestProject = () => {
                 PROJECTS
             </h2>
             <div className="RedUnderLine"></div>
+            <LatestProjectComponent/>
+
+            
         </div>
     );
 
