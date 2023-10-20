@@ -1,6 +1,7 @@
 import Menu from "../../SharedComponents/Menu/Menu";
 import LatestProject from "./LatestProject";
 import './Home.css';
+import HomeAbout from "./HomeAbout";
 
 const Home = () => {
 
@@ -17,7 +18,7 @@ const Home = () => {
                 </div>
             </div>
             <LatestProject/>
-            <div className="RedUnderLine"></div>
+            <HomeAbout/>
         </div>
     );
 };

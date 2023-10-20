@@ -137,3 +137,57 @@
     background-color: white;
     color: black;
 }
+
+/**********************************************************************************************
+    Home About us Section
+***********************************************************************************************/
+
+.homeProfile {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.profileImage {
+    width: 40%;
+    height: auto;
+}
+
+.homeProfileContainer {
+    width: 60%;
+}
+
+.homeProfileHeaderContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.homeProfileHeader {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.homeProfileHeader.later {
+    font-size: 48px;
+}
+
+.profileUnderLine {
+    width: 60%;
+    align-self: center;
+    height: 1px;
+    background-color: rgb(77, 77, 77);
+}
+
+/*Might have to change fonts later*/
+.profileText {
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+    width: 70%;
+    margin: 3vw 2vw 2vw 1vw;
+    line-height: 25px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
