@@ -72,7 +72,6 @@
     font-size: 13px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    /*Change to white Later */
     color: white;
     font-weight: 400;
 }
@@ -153,12 +152,62 @@
 /**********************************************************************************************
     For viewport >= 992
 ***********************************************************************************************/
-@media only screen and (max-width: 992) {}
+@media only screen and (max-width: 992px) {
+    .menuBar {
+        max-width: 750px;
+        padding-top: 35px;
+    }
+
+    .logoLetters {
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+
+    .logoFooters {
+        font-size: 10px;
+        letter-spacing: 2.5px;
+    }
+
+    .menuOptions a {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+
+    .hoveredMenuOptions a {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+}
 
 /**********************************************************************************************
     For viewport >= 768
 ***********************************************************************************************/
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .menuBar {
+        max-width: 700px;
+        padding-top: 30px;
+    }
+
+    .logoLetters {
+        font-size: 20px;
+        letter-spacing: 2.5px;
+    }
+
+    .logoFooters {
+        font-size: 10px;
+        letter-spacing: 2.5px;
+    }
+
+    .menuOptions a {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+
+    .hoveredMenuOptions a {
+        font-size: 9px;
+        letter-spacing: 1px;
+    }
+}
 
 /**********************************************************************************************
     For viewport >= 576
