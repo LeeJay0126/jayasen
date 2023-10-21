@@ -183,11 +183,128 @@
 
 /*Might have to change fonts later*/
 .profileText {
-    font-weight: 100;
+    font-weight: 300;
     text-rendering: optimizeLegibility;
-    width: 70%;
     margin: 3vw 2vw 2vw 1vw;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 20px;
     letter-spacing: 1.5px;
 }
+
+.moreButtonContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learnMoreButton {
+    width: 20vw;
+    height: 8vw;
+    font-size: 40px;
+    font-family: 'robato';
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.learnMoreButton:hover {
+    background-color: white;
+    color: black;
+}
+
+@media only screen and (max-width:1280px) and (min-width: 821px) {
+    .homeProfile {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .homeProfileHeader {
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .homeProfileHeader.later {
+        font-size: 32px;
+    }
+
+    /*Might have to change fonts later*/
+    .profileText {
+
+        line-height: 20px;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    .moreButtonContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .learnMoreButton {
+        width: 20vw;
+        font-size: 24px;
+        font-family: 'robato';
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .learnMoreButton:hover {
+        background-color: white;
+        color: black;
+    }
+}
+
+@media only screen and (max-width:820px){
+    .homeProfile {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .homeProfileHeader {
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .homeProfileHeader.later {
+        font-size: 28px;
+    }
+
+    /*Might have to change fonts later*/
+    .profileText {
+        line-height: 16px;
+        font-size: 13px;
+        letter-spacing: 1.2px;
+    }
+
+    .moreButtonContainer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .learnMoreButton {
+        width: 20vw;
+        font-size: 24px;
+        font-family: 'robato';
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+
+    .learnMoreButton:hover {
+        background-color: white;
+        color: black;
+    }
+}
+

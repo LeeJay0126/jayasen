@@ -1,0 +1,23 @@
+/*
+    CSS for Footer
+*/
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.footerHead {
+    font-size: 36px;
+    font-family: 'Roboto slab', serif;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.footerHead span {
+    color: rgb(223, 46, 46);
+}
+

@@ -2,6 +2,7 @@ import Menu from "../../SharedComponents/Menu/Menu";
 import LatestProject from "./LatestProject";
 import './Home.css';
 import HomeAbout from "./HomeAbout";
+import Footer from "../../SharedComponents/Footer/Footer";
 
 const Home = () => {
 
@@ -19,6 +20,7 @@ const Home = () => {
             </div>
             <LatestProject/>
             <HomeAbout/>
+            <Footer/>
         </div>
     );
 };
