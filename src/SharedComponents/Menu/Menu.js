@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import "./Menu.css";
 import MenuOptions from "./MenuOptions";
+import MobileMenu from "./MobileMenu";
 
 
 const Menu = () => {
@@ -9,6 +10,7 @@ const Menu = () => {
         <div className = "menuBar">
             <Logo/>
             <MenuOptions/>
+            <MobileMenu/>
         </div>
     )
 

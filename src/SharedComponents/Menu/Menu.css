@@ -91,6 +91,63 @@
     opacity: 100%;
 }
 
+.mobileMenu {
+    display: none;
+}
+
+.sideBar {
+    width: 50vw;
+    position: fixed;
+    height: 100%;
+    max-width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(247,240,235);
+    transform: translate(800px, 0);
+    transition: all 0.4s;
+}
+
+.sideBarActive {
+    transform: translate(0px, 0px);
+    text-align: center;
+    padding: 75px 10px;
+}
+
+.sideBarHeading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    letter-spacing: 2px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.sideBar a {
+    text-decoration: none;
+}
+
+.sideBar li {
+    padding-bottom: 45px;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+}
+
+.menuIcon {
+    height: auto;
+    width: 30px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 3;
+}
+
+.menuIconClicked{
+    color: black;
+}
+
 /**********************************************************************************************
     For viewport >= 1200
 ***********************************************************************************************/
@@ -184,7 +241,7 @@
 ***********************************************************************************************/
 @media only screen and (max-width: 768px) {
     .menuBar {
-        max-width: 700px;
+        max-width: 550px;
         padding-top: 30px;
     }
 
@@ -198,17 +255,32 @@
         letter-spacing: 2.5px;
     }
 
-    .menuOptions a {
-        font-size: 9px;
-        letter-spacing: 1px;
+    .optionList {
+        display: none;
     }
 
-    .hoveredMenuOptions a {
-        font-size: 9px;
-        letter-spacing: 1px;
+    .mobileMenu{
+        display: block;
     }
+
 }
 
 /**********************************************************************************************
     For viewport >= 600
 ***********************************************************************************************/
+
+@media only screen and (max-width: 600px) {
+    .menuBar {
+        max-width: 450px;
+        padding-top: 30px;
+    }
+
+    .optionList {
+        display: none;
+    }
+
+    .mobileMenu{
+        display: block;
+    }
+
+}
