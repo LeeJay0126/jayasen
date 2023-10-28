@@ -154,6 +154,7 @@
 .profileImage {
     width: 30%;
     height: auto;
+    border-radius: 10px;
 }
 
 .homeProfileContainer {
@@ -202,12 +203,17 @@
 .learnMoreButton {
     width: 20vw;
     height: 8vw;
-    font-size: 40px;
-    font-family: 'robato';
     background-color: transparent;
     color: white;
     cursor: pointer;
+    border: none;
     transition: all 0.3s;
+    border-radius: 10px;
+}
+
+.learnMoreButton p {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .learnMoreButton:hover {
