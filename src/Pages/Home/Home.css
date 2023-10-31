@@ -461,10 +461,201 @@
 /**********************************************************************************************
     For viewport >= 768
 ***********************************************************************************************/
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .HomeHeaders {
+        padding-top: 200px;
+    }
+
+    .HomeHeaderStart {
+        letter-spacing: 6px;
+        font-size: 40px;
+    }
+
+    .HomeHeaderContent {
+        font-size: 14px;
+    }
+
+    /**********************************************************************************************
+        Home Project Section
+    ***********************************************************************************************/
+
+    .HomeProjectHeader {
+        font-size: 18px;
+    }
+
+    .HomeProjectHeader.later {
+        font-size: 38px;
+    }
+
+    .homeLatestProjectsContainer {
+        padding-top: 80px;
+    }
+
+    .latestProjectTitle {
+        font-size: 12px;
+    }
+
+    .HomeProjectLink {
+        font-size: 12px;
+        padding: 2%;
+    }
+
+    /**********************************************************************************************
+        Home About us Section
+    ***********************************************************************************************/
+
+    .homeProfile {
+        padding-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeProfile:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .profileImage {
+        width: 60%;
+        padding-bottom: 30px;
+    }
+
+    .profileUnderLine {
+        width: 100%;
+    }
+
+    .homeProfileContainer {
+        width: 100%;
+    }
+
+    .homeProfileHeader {
+        font-size: 12px;
+    }
+
+    .homeProfileHeader.later {
+        font-size: 32px;
+    }
+
+    /*Might have to change fonts later*/
+    .profileText {
+        margin: 3vw 2vw 2vw 2vw;
+        line-height: 25px;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+    .learnMoreButton{
+        width: 300px;
+        padding: 20px 40px;
+        height: auto;
+    }
+
+    .learnMoreButton:active {
+        color: black;
+        background-color: white;
+    }
+
+    .learnMoreButton p {
+        font-size: 15px;
+    }
+}
 
 /**********************************************************************************************
     For viewport >= 600
 ***********************************************************************************************/
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    .HomeHeaders {
+        padding-top: 200px;
+    }
+
+    .HomeHeaderStart {
+        letter-spacing: 6px;
+        font-size: 32px;
+    }
+
+    .HomeHeaderContent {
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+
+    /**********************************************************************************************
+        Home Project Section
+    ***********************************************************************************************/
+
+    .HomeProjectHeader {
+        font-size: 14px;
+    }
+
+    .HomeProjectHeader.later {
+        font-size: 32px;
+    }
+
+    .homeLatestProjectsContainer {
+        padding-top: 60px;
+    }
+
+    .latestProjectTitle {
+        font-size: 8px;
+    }
+
+    .HomeProjectLink {
+        font-size: 10px;
+        padding: 2%;
+    }
+
+    /**********************************************************************************************
+        Home About us Section
+    ***********************************************************************************************/
+
+    .homeProfile {
+        padding-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeProfile:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .profileImage {
+        width: 60%;
+        padding-bottom: 40px;
+    }
+
+    .profileUnderLine {
+        width: 100%;
+    }
+
+    .homeProfileContainer {
+        width: 100%;
+    }
+
+    .homeProfileHeader {
+        font-size: 10px;
+    }
+
+    .homeProfileHeader.later {
+        font-size: 20px;
+    }
+
+    /*Might have to change fonts later*/
+    .profileText {
+        margin: 3vw 2vw 2vw 2vw;
+        line-height: 22px;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+    .learnMoreButton{
+        width: 300px;
+        padding: 20px 40px;
+        height: auto;
+    }
+
+    .learnMoreButton:active {
+        color: black;
+        background-color: white;
+    }
+
+    .learnMoreButton p {
+        font-size: 15px;
+    }
+}
