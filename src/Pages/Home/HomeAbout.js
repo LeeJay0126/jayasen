@@ -11,7 +11,7 @@ const HomeAbout = () => {
             </div>
             <div className="RedUnderLine" />
             <div className="homeProfile">
-                <img src={jayProfile} className="profileImage" />
+                <img src={jayProfile} alt="Jay Lee's profile" className="profileImage" />
                 <div className="homeProfileContainer">
                     <div className="homeProfileHeaderContainer">
                         <h4 className="homeProfileHeader">
@@ -60,7 +60,7 @@ const HomeAbout = () => {
                         <Link to="/"><button className="learnMoreButton"><p>More About Asen</p></button></Link>
                     </div>
                 </div>
-                <img src={asenProfile} className="profileImage" />
+                <img src={asenProfile} alt="Asen's Profile" className="profileImage" />
             </div>
         </div>
     );

@@ -13,8 +13,6 @@ const LatestProject = () => {
             </h2>
             <div className="RedUnderLine"></div>
             <LatestProjectComponent/>
-
-            
         </div>
     );
 

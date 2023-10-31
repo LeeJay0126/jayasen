@@ -23,12 +23,6 @@ const LatestProjectComponent = () => {
                     </Link>
                     <h4 className="latestProjectTitle">Temp</h4>
                 </div>
-                <div className="homeProjectsFlex">
-                    <Link to="/">
-                        <img src={tempImage} alt="tempImage" className="tempImage" />
-                    </Link>
-                    <h4 className="latestProjectTitle">Temp</h4>
-                </div>
             </div>
             <div className="HomeProjectLinkContainer">
                 <div className="HomeProjectLinkHelper">
