@@ -31,6 +31,10 @@
     font-family: 'Roboto Slab', serif;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
 .logoLetters {
     font-size: 32px;
     letter-spacing: 5px;
