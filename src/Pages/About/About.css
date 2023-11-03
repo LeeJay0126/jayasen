@@ -1,0 +1,84 @@
+/*
+    CSS for resume page
+*/
+/*
+    General
+*/
+main {
+    background-color: black;
+}
+
+/*
+    Resume Intro
+*/
+
+.sectionIntro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ResumeIcon {
+    color: white;
+    height: 100px;
+    width: 100px;
+}
+
+.ResumeHeading {
+    padding-top: 20px;
+    color: white;
+    letter-spacing: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.ResumeDisplayArea {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ResumeDisplayButtonContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 60%;
+}
+
+.ResumeDisplayButton {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 30px 0 0 0;
+    border-color: white;
+    border-left: 0;
+    border-bottom: 0;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.ResumeDisplayButtonN {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 30px 0 0 0;
+    border: transparent;
+    background-color: rgb(224, 168, 94);
+    color: black;
+    cursor: pointer;
+}
+
+/*
+    Resume Components
+*/
+
+.resumeContainer {
+    width: 80%;
+    margin: 0 auto;
+}

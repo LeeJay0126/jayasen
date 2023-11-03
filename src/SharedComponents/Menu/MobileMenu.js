@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import Resume from "../../Pages/Resume/Resume";
+import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home";
 
 
@@ -19,7 +19,7 @@ const MobileMenu = () => {
                 <ul>
                     <Link to="/" element={<Home/>}><li>Home</li></Link>
                     <Link to="/"><li>Project</li></Link>
-                    <Link to="/resume" element={<Resume/>}><li>Resume</li></Link>
+                    <Link to="/resume" element={<About/>}><li>Resume</li></Link>
                     <Link to="/"><li>Contact Us</li></Link>
                 </ul>
                 <h2 className="sideBarHeading">
