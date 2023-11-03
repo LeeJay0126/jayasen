@@ -6,12 +6,13 @@ import jayProfile from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.j
 import asenProfile from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg";
 import { LuNewspaper } from "react-icons/lu";
 import { useState } from "react";
+import Resume from "./Resume";
 
 
 const About = () => {
     const [resumeOwner, setResume] = useState(true);
 
-    const ResumeDisplayHandler = () =>{
+    const ResumeDisplayHandler = () => {
         setResume(!resumeOwner);
     };
 
@@ -27,8 +28,9 @@ const About = () => {
             <section className="ResumeDisplayArea">
                 <div className="ResumeDisplayButtonContainer">
                     <button className={resumeOwner ? "ResumeDisplayButtonN" : "ResumeDisplayButton"} onClick={ResumeDisplayHandler}>Jay</button>
-                    <button className={resumeOwner ? "ResumeDisplayButton" :"ResumeDisplayButtonN"} onClick={ResumeDisplayHandler}>Asen</button>
+                    <button className={resumeOwner ? "ResumeDisplayButton" : "ResumeDisplayButtonN"} onClick={ResumeDisplayHandler}>Asen</button>
                 </div>
+                <Resume resumeOwner={resumeOwner} />
             </section>
             <Footer />
         </main>

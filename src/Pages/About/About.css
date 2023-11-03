@@ -74,11 +74,56 @@ main {
     cursor: pointer;
 }
 
+.resumeHeading {
+    text-align: center;
+    padding-top: 40px;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
 /*
     Resume Components
 */
 
 .resumeContainer {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
+    background-color: rgb(224, 168, 94);
+    border-radius: 0 20px 20px 20px;
+    margin-bottom: 100px;
 }
+
+.ResumeList {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px black solid;
+}
+
+.ResumeList h3 {
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+    font-weight: 400;
+}
+
+.ResumeList h4 {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}
+
+.ResumeListRight h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+/* .resumeListContainer {
+
+} */
+
+/* .ResumeList {
+
+} */
