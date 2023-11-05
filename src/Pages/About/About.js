@@ -1,9 +1,6 @@
 import Footer from "../../SharedComponents/Footer/Footer";
 import Menu from "../../SharedComponents/Menu/Menu";
 import './About.css';
-import AboutIntro from "./Resume";
-import jayProfile from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.jpg";
-import asenProfile from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg";
 import { LuNewspaper } from "react-icons/lu";
 import { useState } from "react";
 import Resume from "./Resume";
@@ -12,8 +9,8 @@ import Resume from "./Resume";
 const About = () => {
     const [resumeOwner, setResume] = useState(true);
 
-    const ResumeDisplayHandler = () => {
-        setResume(!resumeOwner);
+    const ResumeDisplayHandler = (bool) => {
+        setResume(bool);
     };
 
     return (
@@ -27,8 +24,8 @@ const About = () => {
             </section>
             <section className="ResumeDisplayArea">
                 <div className="ResumeDisplayButtonContainer">
-                    <button className={resumeOwner ? "ResumeDisplayButtonN" : "ResumeDisplayButton"} onClick={ResumeDisplayHandler}>Jay</button>
-                    <button className={resumeOwner ? "ResumeDisplayButton" : "ResumeDisplayButtonN"} onClick={ResumeDisplayHandler}>Asen</button>
+                    <button className={resumeOwner ? "ResumeDisplayButtonN" : "ResumeDisplayButton"} onClick={()=>ResumeDisplayHandler(true)}>Jay</button>
+                    <button className={resumeOwner ? "ResumeDisplayButton" : "ResumeDisplayButtonN"} onClick={()=>ResumeDisplayHandler(false)}>Asen</button>
                 </div>
                 <Resume resumeOwner={resumeOwner} />
             </section>

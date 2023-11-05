@@ -6,6 +6,8 @@ import JayProfessional from "./Jay/JayProfessional";
 import JayWorkExperience from "./Jay/JayWorkExperience";
 import AsenProfessional from "./Asen/AsenProfessional";
 import AsenWorkExperience from "./Asen/AsenWorkExperience";
+import JayPicture from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.jpg"
+import AsenPicture from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg"
 
 const Resume = (props) => {
     const JayProfessionalList = JayProfessional.map((jobs) =>
@@ -15,6 +17,7 @@ const Resume = (props) => {
         type={jobs[4]}
         startDate={jobs[2]}
         endDate={jobs[3]}
+        jobDescription={jobs[5]}
         key={jobs[3]}
     />
     ));
@@ -25,6 +28,7 @@ const Resume = (props) => {
         type={jobs[4]}
         startDate={jobs[2]}
         endDate={jobs[3]}
+        jobDescription={jobs[5]}
         key={jobs[3]}
     />
     ));
@@ -35,6 +39,7 @@ const Resume = (props) => {
         type={jobs[4]}
         startDate={jobs[2]}
         endDate={jobs[3]}
+        jobDescription={jobs[5]}
         key={jobs[3]}
     />
     ));
@@ -45,12 +50,36 @@ const Resume = (props) => {
         type={jobs[4]}
         startDate={jobs[2]}
         endDate={jobs[3]}
+        jobDescription={jobs[5]}
         key={jobs[3]}
     />
     ));
 
     const Jay = (
         <section className="resumeContainer">
+            <section className="resumeHero">
+                <img src={JayPicture} alt="jay for resume" className="resumeImage" />
+                <aside>
+                    <h2 className="resumeHeroHeading">
+                        Jay Seung Yeon Lee
+                    </h2>
+                    <div className="Education">
+                        <div className="EducationRight">
+                            <h2>
+                                Langara College
+                            </h2>
+                            <h3>
+                                Computer Science
+                            </h3>
+                        </div>
+                        <div className="EducationLeft">
+                            <h3>
+                                2020.01 ~ 2023.12
+                            </h3>
+                        </div>
+                    </div>
+                </aside>
+            </section>
             <h2 className="resumeHeading">
                 Work Experience
             </h2>
@@ -68,6 +97,29 @@ const Resume = (props) => {
 
     const Asen = (
         <section className="resumeContainer">
+            <section className="resumeHero">
+                <img src={AsenPicture} alt="jay for resume" className="resumeImage" />
+                <aside>
+                    <h2 className="resumeHeroHeading">
+                        Asen Woo Change Lee
+                    </h2>
+                    <div className="Education">
+                        <div className="EducationRight">
+                            <h2>
+                                University of British Columbia
+                            </h2>
+                            <h3>
+                                Statistics
+                            </h3>
+                        </div>
+                        <div className="EducationLeft">
+                            <h3>
+                                2017.09 ~ 2023.04
+                            </h3>
+                        </div>
+                    </div>
+                </aside>
+            </section>
             <h2 className="resumeHeading">
                 Work Experience
             </h2>

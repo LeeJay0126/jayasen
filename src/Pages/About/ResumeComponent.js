@@ -1,8 +1,15 @@
 
 const ResumeComponent = (props) => {
 
+    const jobDesc = props.jobDescription.map((desc) => (
+        <li className="jobDesc" key={desc}>
+            {desc}
+        </li>
+    ));
+
     return (
-        <li className="ResumeList">
+        <li>
+        <section className="ResumeList">
             <div className="ResumeListLeft">
                 <h3 className="ResumeListHeading">
                     {props.company}
@@ -19,6 +26,12 @@ const ResumeComponent = (props) => {
                     {props.startDate} ~ {props.endDate}
                 </h4>
             </div>
+        </section>
+        <section className="workDescription">
+            <ul>
+                {jobDesc}
+            </ul>
+        </section>
         </li>
     );
 }
