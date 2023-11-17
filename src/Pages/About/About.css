@@ -136,7 +136,7 @@ main {
 }
 
 .EducationRight h3 {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 17px;
     letter-spacing: 1.5px;
 }
@@ -199,19 +199,482 @@ main {
     margin: 0 auto;
 }
 
-.jobDesc{
-    list-style:none;
+.jobDesc {
+    list-style: none;
     line-height: 20px;
     padding-bottom: 15px;
     letter-spacing: 1px;
     font-size: 16px;
 }
 
+/**********************************************************************************************
+    For viewport >= 1200
+***********************************************************************************************/
 
-/* .resumeListContainer {
+@media only screen and (max-width: 1200px) {
+    .sectionIntro {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 
-} */
+    .ResumeIcon {
+        height: 100px;
+        width: 100px;
+    }
 
-/* .ResumeList {
+    .ResumeHeading {
+        padding-top: 20px;
+        letter-spacing: 8px;
+        font-size: 48px;
+    }
 
-} */
+
+    .ResumeDisplayButton {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 30px 0 0 0;
+        border-color: white;
+    }
+
+    .ResumeDisplayButtonN {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 30px 0 0 0;
+    }
+
+    .resumeHeading {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 24px;
+    }
+
+    /*
+        Resume Components
+    */
+
+    .resumeHero {
+        padding: 30px 10px;
+    }
+
+    .resumeImage {
+        width: 200px;
+        height: 250px;
+    }
+
+    .resumeHeroHeading {
+        padding-top: 0;
+        padding-bottom: 50px;
+        font-size: 32px;
+    }
+
+    .resumeHero aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .EducationRight h2 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .EducationRight h3 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+    .EducationLeft h3 {
+        font-size: 15px;
+        letter-spacing: 1.5px;
+    }
+
+
+    .resumeContainer {
+        margin-bottom: 100px;
+        padding-bottom: 30px;
+    }
+
+    .ResumeList {
+        margin: 20px 40px;
+        padding-bottom: 10px;
+    }
+
+    .ResumeList h3 {
+        font-size: 24px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+    }
+
+    .ResumeList h4 {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+
+    .ResumeListRight h4 {
+        font-size: 20px;
+    }
+
+    .jobDesc {
+        line-height: 18px;
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+
+}
+
+/**********************************************************************************************
+    For viewport >= 992
+***********************************************************************************************/
+@media only screen and (max-width: 992px) {
+    .sectionIntro {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .ResumeIcon {
+        height: 75px;
+        width: 75px;
+    }
+
+    .ResumeHeading {
+        padding-top: 15px;
+        letter-spacing: 7px;
+        font-size: 36px;
+    }
+
+
+    .ResumeDisplayButton {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 30px 0 0 0;
+        border-color: white;
+    }
+
+    .ResumeDisplayButtonN {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding: 10px 20px;
+        border-radius: 30px 0 0 0;
+    }
+
+    .resumeHeading {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 20px;
+    }
+
+    /*
+        Resume Components
+    */
+
+    .resumeHero {
+        padding: 30px 10px;
+    }
+
+    .resumeImage {
+        width: 150px;
+        height: 200px;
+    }
+
+    .resumeHeroHeading {
+        padding-top: 0;
+        padding-bottom: 50px;
+        font-size: 24px;
+    }
+
+    .resumeHero aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .EducationRight h2 {
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .EducationRight h3 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .EducationLeft h3 {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+
+    .resumeContainer {
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
+    .ResumeList {
+        margin: 15px 30px;
+        padding-bottom: 10px;
+    }
+
+    .ResumeList h3 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+    }
+
+    .ResumeList h4 {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    .ResumeListRight h4 {
+        font-size: 16px;
+    }
+
+    .jobDesc {
+        line-height: 16px;
+        padding-bottom: 13px;
+        font-size: 12px;
+    }
+
+}
+
+/**********************************************************************************************
+    For viewport >= 768
+***********************************************************************************************/
+@media only screen and (max-width: 768px) {
+    .sectionIntro {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ResumeIcon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .ResumeHeading {
+        padding-top: 15px;
+        letter-spacing: 5px;
+        font-size: 24px;
+    }
+
+
+    .ResumeDisplayButton {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        padding: 5px 10px;
+        border-radius: 30px 0 0 0;
+    }
+
+    .ResumeDisplayButtonN {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        padding: 5px 10px;
+        border-radius: 30px 0 0 0;
+    }
+
+    .resumeHero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .resumeHeading {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    /*
+        Resume Components
+    */
+
+    .resumeHero {
+        padding: 30px 10px;
+    }
+
+    .resumeImage {
+        width: 150px;
+        height: 200px;
+    }
+
+    .resumeHeroHeading {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .resumeHero aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .EducationRight h2 {
+        padding-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .EducationRight h3 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .EducationLeft h3 {
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+
+    .resumeContainer {
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
+    .ResumeList {
+        margin: 15px 30px;
+        padding-bottom: 10px;
+    }
+
+    .ResumeList h3 {
+        font-size: 16px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+    }
+
+    .ResumeList h4 {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    .ResumeListRight h4 {
+        font-size: 14px;
+    }
+
+    .jobDesc {
+        line-height: 16px;
+        padding-bottom: 13px;
+        font-size: 12px;
+    }
+}
+
+/**********************************************************************************************
+    For viewport >= 600
+***********************************************************************************************/
+
+@media only screen and (max-width: 600px) {
+    .sectionIntro {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .ResumeIcon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .ResumeHeading {
+        padding-top: 15px;
+        letter-spacing: 5px;
+        font-size: 24px;
+    }
+
+
+    .ResumeDisplayButton {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        padding: 5px 10px;
+        border-radius: 15px 0 0 0;
+    }
+
+    .ResumeDisplayButtonN {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        padding: 5px 10px;
+        border-radius: 15px 0 0 0;
+    }
+
+    .resumeHero {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .resumeHeading {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    /*
+        Resume Components
+    */
+
+    .resumeHero {
+        padding: 30px 10px;
+    }
+
+    .resumeImage {
+        width: 150px;
+        height: 200px;
+    }
+
+    .resumeHeroHeading {
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .resumeHero aside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .EducationRight h2 {
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .EducationRight h3 {
+        font-size: 11px;
+        letter-spacing: 1.5px;
+    }
+
+    .EducationLeft h3 {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+
+    .resumeContainer {
+        margin-bottom: 50px;
+        padding-bottom: 20px;
+    }
+
+    .ResumeList {
+        margin: 15px 30px;
+        padding-bottom: 10px;
+    }
+
+    .ResumeList h3 {
+        font-size: 12px;
+        letter-spacing: 2px;
+        padding-bottom: 5px;
+    }
+
+    .ResumeList h4 {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+    }
+
+    .ResumeListRight h4 {
+        font-size: 10px;
+    }
+
+    .jobDesc {
+        line-height: 14px;
+        padding-bottom: 13px;
+        font-size: 10px;
+    }
+}

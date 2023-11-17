@@ -3,6 +3,7 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home";
+import ContactUs from "../../Pages/ContactUs/ContactUs";
 
 
 const MobileMenu = () => {
@@ -17,10 +18,10 @@ const MobileMenu = () => {
             <AiOutlineMenuUnfold className={displayMenu ? "menuIcon menuIconClicked" : "menuIcon"} onClick={mobileMenuHandler} />
             <div className={displayMenu ? "sideBar sideBarActive" : "sideBar"}>
                 <ul>
-                    <Link to="/" element={<Home/>}><li>Home</li></Link>
+                    <Link to="/" element={<Home />}><li>Home</li></Link>
                     <Link to="/"><li>Project</li></Link>
-                    <Link to="/resume" element={<About/>}><li>Resume</li></Link>
-                    <Link to="/"><li>Contact Us</li></Link>
+                    <Link to="/resume" element={<About />}><li>Resume</li></Link>
+                    <Link to="/contact" element={<ContactUs />}><li>Contact Us</li></Link>
                 </ul>
                 <h2 className="sideBarHeading">
                     Jay . Asen

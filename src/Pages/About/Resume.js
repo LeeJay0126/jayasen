@@ -101,7 +101,7 @@ const Resume = (props) => {
                 <img src={AsenPicture} alt="jay for resume" className="resumeImage" />
                 <aside>
                     <h2 className="resumeHeroHeading">
-                        Asen Woo Change Lee
+                        Asen Woo Chang Lee
                     </h2>
                     <div className="Education">
                         <div className="EducationRight">

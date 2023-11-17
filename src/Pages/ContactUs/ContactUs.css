@@ -1,0 +1,64 @@
+/*
+    CSS for resume page
+*/
+/*
+    General
+*/
+main {
+    background-color: black;
+}
+
+.ContactUsContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*
+    ContactUs Main
+*/
+
+.ContactUsMain {
+    width: 100%;
+}
+
+.ContactUsHero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ContactUsHeading {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 80px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.LinkedInContainer {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.ContactUsLinkedIn {
+    height: 50px;
+    width: 50px;
+    color: white;
+}
+
+.LinkedInFig {
+    text-decoration: none;
+}
+
+.LinkedInFig figcaption {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}

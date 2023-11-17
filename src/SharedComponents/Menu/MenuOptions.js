@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Home from "../../Pages/Home/Home";
 import About from "../../Pages/About/About";
+import ContactUs from "../../Pages/ContactUs/ContactUs";
 
 const MenuOptions = () => {
 
@@ -17,7 +18,7 @@ const MenuOptions = () => {
                 <li className={isHovered ? "hoveredMenuOptions" : "menuOptions"}><Link to="/" element={<Home/>}>Home</Link></li>
                 <li className={isHovered ? "hoveredMenuOptions" : "menuOptions"}><Link to="/">Project</Link></li>
                 <li className={isHovered ? "hoveredMenuOptions" : "menuOptions"}><Link to="/about" element={<About/>}>Resume</Link></li>
-                <li className={isHovered ? "hoveredMenuOptions" : "menuOptions"}><Link to="/">Contact Us</Link></li>
+                <li className={isHovered ? "hoveredMenuOptions" : "menuOptions"}><Link to="/contact" element={<ContactUs/>}>Contact Us</Link></li>
             </ul>
         </div>
     );
