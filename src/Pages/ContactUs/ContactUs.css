@@ -29,9 +29,10 @@ main {
 .ContactUsHeading {
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    font-size: 48px;
-    letter-spacing: 2px;
+    font-size: 36px;
+    letter-spacing: 2.5px;
     line-height: 80px;
+    font-weight: 200;
 }
 
 aside {
@@ -61,4 +62,92 @@ aside {
     letter-spacing: 2px;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
+    transition: all 0.2s;
+}
+
+.LinkedInFig figcaption:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+
+
+.ContactUsHeading span {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 0.2px;
+
+}
+
+.EmailSection {
+    background: rgb(216, 206, 192);
+    padding: 50px;
+    border-radius: 30px;
+    margin-top: 75px;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.nameAndEmail {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nameAndEmail div{
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    height: 30px;
+    width: 350px;
+    font-size: 16px;
+}
+
+form div{
+    padding-bottom: 30px;
+}
+
+form h2{
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+form label{
+    letter-spacing: 2px;
+    font-size: 24px;
+    padding-right: 5px;
+}
+
+.MessageSection {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+}
+
+.MessageSection label {
+    width: 80%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.submitButton {
+    height: 50px;
+    width: 200px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin: 0 auto;
 }

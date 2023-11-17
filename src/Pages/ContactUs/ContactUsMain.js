@@ -1,5 +1,6 @@
 import { IoLogoLinkedin } from "react-icons/io5";
 import { Route } from "react-router-dom";
+import Email from "./Email";
 
 const ContactUsMain = () => {
     return (
@@ -7,10 +8,10 @@ const ContactUsMain = () => {
             <section className="ContactUsHero">
                 <div>
                     <h2 className="ContactUsHeading">
-                        Get in Touch With Us
+                        <span>Get</span> in Touch <span>With</span> Us
                     </h2>
                     <h2 className="ContactUsHeading">
-                        Via LinkedIn or Email
+                        Via <span>LinkedIn</span> or <span>Email</span>
                     </h2>
                 </div>
                 <aside>
@@ -26,8 +27,10 @@ const ContactUsMain = () => {
                             <figcaption> Asen's LinkedIn</figcaption>
                         </a>
                     </div>
-
                 </aside>
+            </section>
+            <section className="EmailSection">
+                <Email/>
             </section>
         </section>
     );
