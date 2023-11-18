@@ -11,9 +11,9 @@ const ContactUs = () => {
             <Menu />
             <main className="ContactUsContainer">
                 <ContactUsIntro />
-                <ContactUsMain/>
+                <ContactUsMain />
             </main>
-            <Footer/>
+            <Footer />
         </main>
     );
 }

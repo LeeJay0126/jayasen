@@ -1,6 +1,3 @@
-//Pictures subjected to change
-// import jayProfile from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.jpg";
-// import asenProfile from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg";
 import ResumeComponent from "../About/ResumeComponent";
 import JayProfessional from "./Jay/JayProfessional";
 import JayWorkExperience from "./Jay/JayWorkExperience";

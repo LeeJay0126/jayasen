@@ -20,7 +20,7 @@ const MobileMenu = () => {
                 <ul>
                     <Link to="/" element={<Home />}><li>Home</li></Link>
                     <Link to="/"><li>Project</li></Link>
-                    <Link to="/resume" element={<About />}><li>Resume</li></Link>
+                    <Link to="/about" element={<About />}><li>Resume</li></Link>
                     <Link to="/contact" element={<ContactUs />}><li>Contact Us</li></Link>
                 </ul>
                 <h2 className="sideBarHeading">

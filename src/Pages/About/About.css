@@ -631,14 +631,21 @@ main {
         text-align: center;
     }
 
+    .Education {
+        flex-direction: column;
+    }
+
     .EducationRight h2 {
         padding-bottom: 5px;
-        font-size: 12px;
+        font-size: 11.5px;
+        letter-spacing: 1.5px;
     }
 
     .EducationRight h3 {
         font-size: 11px;
         letter-spacing: 1.5px;
+        font-weight: 600;
+        padding-bottom: 20px;
     }
 
     .EducationLeft h3 {

@@ -6,6 +6,7 @@
 */
 main {
     background-color: black;
+    padding-bottom: 50px;
 }
 
 .ContactUsContainer {
@@ -80,7 +81,8 @@ aside {
 }
 
 .EmailSection {
-    background: rgb(216, 206, 192);
+    background: transparent;
+    border: 1px solid red;
     padding: 50px;
     border-radius: 30px;
     margin-top: 75px;
@@ -98,7 +100,7 @@ form {
     justify-content: space-evenly;
 }
 
-.nameAndEmail div{
+.nameAndEmail div {
     display: flex;
     flex-direction: column;
 }
@@ -107,24 +109,27 @@ form input {
     height: 30px;
     width: 350px;
     font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-form div{
+form div {
     padding-bottom: 30px;
 }
 
-form h2{
+form h2 {
     text-align: center;
     padding-bottom: 50px;
     letter-spacing: 3px;
     font-size: 40px;
     font-weight: 300;
+    color: white;
 }
 
-form label{
+form label {
     letter-spacing: 2px;
     font-size: 24px;
     padding-right: 5px;
+    color: white;
 }
 
 .MessageSection {
@@ -150,4 +155,281 @@ textarea {
     font-size: 24px;
     letter-spacing: 2px;
     margin: 0 auto;
+}
+
+/**********************************************************************************************
+    For viewport >= 1200
+***********************************************************************************************/
+
+@media only screen and (max-width: 1200px) {
+
+    .ContactUsHeading {
+        font-size: 24px;
+        letter-spacing: 2.5px;
+        line-height: 80px;
+    }
+
+    .ContactUsLinkedIn {
+        height: 35px;
+        width: 35px;
+    }
+
+    .LinkedInFig figcaption {
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    .EmailSection {
+        padding: 50px;
+        border-radius: 30px;
+        margin-top: 75px;
+    }
+
+    form input {
+        height: 25px;
+        width: 300px;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    form div {
+        padding-bottom: 30px;
+    }
+
+    form h2 {
+        padding-bottom: 50px;
+        letter-spacing: 3px;
+        font-size: 40px;
+    }
+
+    form label {
+        letter-spacing: 2px;
+        font-size: 24px;
+    }
+
+    .MessageSection {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+
+    textarea {
+        height: 300px;
+    }
+
+    .submitButton {
+        height: 50px;
+        width: 200px;
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}
+
+/**********************************************************************************************
+    For viewport >= 992
+***********************************************************************************************/
+@media only screen and (max-width: 992px) {
+    .ContactUsHeading {
+        font-size: 18px;
+        letter-spacing: 2px;
+        line-height: 80px;
+    }
+
+    .ContactUsLinkedIn {
+        height: 25px;
+        width: 25px;
+    }
+
+    .LinkedInFig figcaption {
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .EmailSection {
+        padding: 50px;
+        border-radius: 25px;
+        margin-top: 50px;
+    }
+
+    form input {
+        height: 20px;
+        width: 200px;
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    form div {
+        padding-bottom: 10px;
+    }
+
+    form h2 {
+        padding-bottom: 40px;
+        letter-spacing: 3px;
+        font-size: 32px;
+    }
+
+    form label {
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+
+    .MessageSection {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+
+    textarea {
+        height: 250px;
+    }
+
+    .submitButton {
+        height: 40px;
+        width: 150px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+}
+
+/**********************************************************************************************
+    For viewport >= 768
+***********************************************************************************************/
+@media only screen and (max-width: 768px) {
+    .ContactUsHeading {
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .ContactUsLinkedIn {
+        height: 20px;
+        width: 20px;
+    }
+
+    .LinkedInFig figcaption {
+        letter-spacing: 1.5px;
+        font-size: 15px;
+    }
+
+    .EmailSection {
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 35px;
+    }
+
+    form input {
+        height: 20px;
+        width: 175px;
+        font-size: 11px;
+    }
+
+    form div {
+        padding-bottom: 5px;
+    }
+
+    form h2 {
+        padding-bottom: 40px;
+        letter-spacing: 2px;
+        font-size: 28px;
+    }
+
+    form label {
+        letter-spacing: 2px;
+        font-size: 15px;
+    }
+
+    .MessageSection {
+        padding: 30px 0 30px 0;
+    }
+
+    textarea {
+        height: 300px;
+    }
+
+    .submitButton {
+        height: 30px;
+        width: 150px;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+}
+
+/**********************************************************************************************
+    For viewport >= 600
+***********************************************************************************************/
+
+@media only screen and (max-width: 600px) {
+    .ContactUsHeading {
+        font-size: 19px;
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
+
+    .ContactUsHero {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .ContactUsHero aside {
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: space-between;
+    }
+
+    .ContactUsLinkedIn {
+        height: 15px;
+        width: 15px;
+    }
+
+    .LinkedInFig figcaption {
+        letter-spacing: 1.5px;
+        font-size: 12px;
+    }
+
+    .EmailSection {
+        padding: 30px;
+        border-radius: 20px;
+        margin-top: 50px;
+    }
+
+    .nameAndEmail {
+        flex-direction: column;
+    }
+
+    form input {
+        height: 20px;
+        width: 200px;
+        font-size: 12px;
+    }
+
+    form div {
+        padding-bottom: 15px;
+    }
+
+    form h2 {
+        padding-bottom: 20px;
+        letter-spacing: 3px;
+        font-size: 28px;
+    }
+
+    form label {
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+
+    .MessageSection {
+        padding: 20px 0 20px 0;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    .submitButton {
+        height: 25px;
+        width: 100px;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
 }
