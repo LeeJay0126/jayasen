@@ -150,10 +150,14 @@ textarea {
 }
 
 .submitButton {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    border: none;
+
     height: 50px;
     width: 200px;
     font-size: 24px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin: 0 auto;
 }
 

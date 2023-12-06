@@ -10,12 +10,12 @@ const LatestProjectComponent = () => {
                 <div className="homeProjectsFlex">
                     <Link to="/">
                         <img src={tempImage} alt="tempImage" className="tempImage" />
-                    </Link>                    <h4 className="latestProjectTitle">WBH Construction</h4>
+                    </Link>                    <h4 className="latestProjectTitle">WBH</h4>
                 </div>
                 <div className="homeProjectsFlex">
                     <Link to="/">
                         <img src={tempImage} alt="tempImage" className="tempImage" />
-                    </Link>                    <h4 className="latestProjectTitle">NBA Simulator</h4>
+                    </Link>                    <h4 className="latestProjectTitle">NBA</h4>
                 </div>
                 <div className="homeProjectsFlex">
                     <Link to="/">
@@ -26,10 +26,10 @@ const LatestProjectComponent = () => {
             </div>
             <div className="HomeProjectLinkContainer">
                 <div className="HomeProjectLinkHelper">
-                    <Link to="/" className="HomeProjectLink">VIEW MOBILE APPLICATION PROJECTS</Link>
+                    <Link to="/" className="HomeProjectLink">Projects In Progress</Link>
                 </div>
                 <div className="HomeProjectLinkHelper">
-                    <Link to="/" className="HomeProjectLink">VIEW WEB APPLICATION PROJECTS</Link>
+                    <Link to="/" className="HomeProjectLink">Completed Projects</Link>
                 </div>
             </div>
         </div>

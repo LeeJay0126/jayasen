@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import About from "../../Pages/About/About";
 import Home from "../../Pages/Home/Home";
 import ContactUs from "../../Pages/ContactUs/ContactUs";
+import Project from "../../Pages/Projects/Project";
 
 
 const MobileMenu = () => {
@@ -15,16 +16,16 @@ const MobileMenu = () => {
 
     return (
         <div className="mobileMenu">
-            <AiOutlineMenuUnfold className={displayMenu ? "menuIcon menuIconClicked" : "menuIcon"} onClick={mobileMenuHandler} />
+            <AiOutlineMenuUnfold className="menuIcon" onClick={mobileMenuHandler} />
             <div className={displayMenu ? "sideBar sideBarActive" : "sideBar"}>
                 <ul>
-                    <Link to="/" element={<Home />}><li>Home</li></Link>
-                    <Link to="/"><li>Project</li></Link>
-                    <Link to="/about" element={<About />}><li>Resume</li></Link>
-                    <Link to="/contact" element={<ContactUs />}><li>Contact Us</li></Link>
+                    <Link to="/" element={<Home />}><li>HOME</li></Link>
+                    <Link to="/projects" element={<Project />}><li>PROJECT</li></Link>
+                    <Link to="/about" element={<About />}><li>RESUME</li></Link>
+                    <Link to="/contact" element={<ContactUs />}><li>CONTACT US</li></Link>
                 </ul>
                 <h2 className="sideBarHeading">
-                    Jay . Asen
+                    J<span>ay . </span>Asen
                 </h2>
             </div>
         </div>

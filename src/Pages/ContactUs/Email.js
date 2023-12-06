@@ -9,9 +9,9 @@ const Email = () => {
 
         emailjs.sendForm('service_kayxskp', 'template_euzdmn1', form.current, 'jv4ERTIVEcxMM22ZJ')
             .then((result) => {
-                console.log(result.text);
+                alert("Email Sent!");
             }, (error) => {
-                console.log(error.text);
+                alert(error.text);
             });
     };
 
@@ -34,7 +34,7 @@ const Email = () => {
                 <label>Message</label>
                 <textarea name="message" />
             </section>
-            <input type="submit" value="Send" className='submitButton' />
+            <input type="submit" value="SEND" className='submitButton' />
         </form>
     );
 }
