@@ -161,6 +161,7 @@ textarea {
     font-family: 'Courier New', Courier, monospace;
     background-color: white;
     border: none;
+    cursor: pointer;
 
     height: 50px;
     width: 200px;
