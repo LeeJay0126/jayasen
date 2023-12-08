@@ -117,11 +117,12 @@
 }
 
 .HomeProjectLinkHelper {
-    width: 40%;
+    width: 60%;
     cursor: pointer;
     display: flex;
     align-items: center;
     border: 1px white solid;
+    margin: 0 auto;
 }
 
 .HomeProjectLink {
@@ -384,6 +385,12 @@
 ***********************************************************************************************/
 @media only screen and (max-width: 992px) {
 
+    .HomeHeroSection {
+        #ci-hero-11 .widget-wrap , #ci-hero-12 .widget-wrap {
+            background-attachment: initial;
+        }
+    }
+
     .HomeHeaders {
         padding-top: 200px;
     }
@@ -462,6 +469,13 @@
     For viewport >= 768
 ***********************************************************************************************/
 @media only screen and (max-width: 768px) {
+
+    .HomeHeroSection {
+        #ci-hero-11 .widget-wrap #ci-hero-12 .widget-wrap {
+            background-attachment: initial;
+        }
+    }
+
     .HomeHeaders {
         padding-top: 200px;
     }
@@ -542,7 +556,8 @@
         font-size: 14px;
         letter-spacing: 1.5px;
     }
-    .learnMoreButton{
+
+    .learnMoreButton {
         width: 300px;
         padding: 20px 40px;
         height: auto;
@@ -563,6 +578,13 @@
 ***********************************************************************************************/
 
 @media only screen and (max-width: 600px) {
+
+    .HomeHeroSection {
+        #ci-hero-11 .widget-wrap #ci-hero-12 .widget-wrap {
+            background-attachment: initial;
+        }
+    }
+
     .HomeHeaders {
         padding-top: 200px;
     }
@@ -644,7 +666,8 @@
         font-size: 11px;
         letter-spacing: 1.5px;
     }
-    .learnMoreButton{
+
+    .learnMoreButton {
         width: 300px;
         padding: 20px 40px;
         height: auto;

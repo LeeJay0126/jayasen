@@ -26,10 +26,7 @@ const LatestProjectComponent = () => {
             </div>
             <div className="HomeProjectLinkContainer">
                 <div className="HomeProjectLinkHelper">
-                    <Link to="/" className="HomeProjectLink">Projects In Progress</Link>
-                </div>
-                <div className="HomeProjectLinkHelper">
-                    <Link to="/" className="HomeProjectLink">Completed Projects</Link>
+                    <Link to="/" className="HomeProjectLink">More Projects</Link>
                 </div>
             </div>
         </div>
