@@ -96,13 +96,21 @@ form {
 
 .nameAndEmail {
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: space-evenly;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .nameAndEmail div {
     display: flex;
     flex-direction: column;
+    width: 100%;
+}
+
+.nameAndEmail input {
+    width: 100%;
 }
 
 form input {

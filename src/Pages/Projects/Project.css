@@ -4,7 +4,32 @@
     background-color: black;
 }
 
-main {
+.ProjectsMain {
     width: 80%;
+    height: 85vh;
     margin: 0 auto;
+}
+
+/*
+    Temporary section
+*/
+
+.tempUnavail {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tempImg {
+    width: 20%;
+    height: 20%;
+    color: white;
+}
+
+.ProjectsTempHeading {
+    font-size: 7.5vw;
+    /* letter-spacing: 5px; */
+    color: white;
 }
