@@ -386,9 +386,11 @@
 @media only screen and (max-width: 992px) {
 
     .HomeHeroSection {
-        #ci-hero-11 .widget-wrap , #ci-hero-12 .widget-wrap {
-            background-attachment: initial;
-        }
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65)), url("../../SharedComponents/Imgs/SoloImages/Jay/whenNothingGoesRight.jpg");
+        min-height: 750px;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .HomeHeaders {
@@ -471,9 +473,10 @@
 @media only screen and (max-width: 768px) {
 
     .HomeHeroSection {
-        #ci-hero-11 .widget-wrap #ci-hero-12 .widget-wrap {
-            background-attachment: initial;
-        }
+        min-height: 750px;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .HomeHeaders {
@@ -580,9 +583,11 @@
 @media only screen and (max-width: 600px) {
 
     .HomeHeroSection {
-        #ci-hero-11 .widget-wrap #ci-hero-12 .widget-wrap {
-            background-attachment: initial;
-        }
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65)), url("../../SharedComponents/Imgs/SoloImages/Jay/whenNothingGoesRight.jpg");
+        min-height: 700px;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 
     .HomeHeaders {
