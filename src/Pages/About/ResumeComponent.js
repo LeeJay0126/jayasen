@@ -8,7 +8,7 @@ const ResumeComponent = (props) => {
     ));
 
     return (
-        <li>
+        <li className="ResumeListLi">
         <section className="ResumeList">
             <div className="ResumeListLeft">
                 <h3 className="ResumeListHeading">

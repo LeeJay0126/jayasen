@@ -162,12 +162,17 @@ textarea {
     background-color: white;
     border: none;
     cursor: pointer;
+    text-transform: uppercase;
 
     height: 50px;
     width: 200px;
     font-size: 24px;
     letter-spacing: 3px;
     margin: 0 auto;
+}
+
+.ResumeListLi {
+    list-style: none;
 }
 
 /**********************************************************************************************
@@ -442,7 +447,7 @@ textarea {
         height: 25px;
         width: 100px;
         font-size: 16px;
-        letter-spacing: 1px;
+        /* letter-spacing: 1px; */
     }
 
 }

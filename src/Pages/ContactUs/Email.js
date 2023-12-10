@@ -34,7 +34,7 @@ const Email = () => {
                 <label>Message</label>
                 <textarea name="message" />
             </section>
-            <input type="submit" value="SEND" className='submitButton' />
+            <input type="submit" className='submitButton' />
         </form>
     );
 }
