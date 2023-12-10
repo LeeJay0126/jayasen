@@ -390,7 +390,7 @@
         min-height: 750px;
         background-position: 50% 50%;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
 
     .HomeHeaders {
@@ -476,7 +476,7 @@
         min-height: 750px;
         background-position: 50% 50%;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
 
     .HomeHeaders {
@@ -516,6 +516,8 @@
         font-size: 12px;
         padding: 2%;
     }
+
+
 
     /**********************************************************************************************
         Home About us Section
@@ -587,7 +589,7 @@
         min-height: 700px;
         background-position: 50% 50%;
         background-size: cover;
-        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
 
     .HomeHeaders {
@@ -625,8 +627,8 @@
     }
 
     .HomeProjectLink {
-        font-size: 10px;
-        padding: 2%;
+        padding: 4%;
+        font-size: 15px;
     }
 
     /**********************************************************************************************
