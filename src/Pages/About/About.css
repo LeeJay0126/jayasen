@@ -296,6 +296,10 @@ main {
         padding-bottom: 30px;
     }
 
+    .ResumeListContainer {
+        list-style: none;
+    }
+
     .ResumeList {
         margin: 20px 40px;
         padding-bottom: 10px;

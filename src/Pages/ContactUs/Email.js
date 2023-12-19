@@ -16,7 +16,7 @@ const Email = () => {
     };
 
     return (
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form}>
             <h2>
                 Email Us!
             </h2>
@@ -34,7 +34,7 @@ const Email = () => {
                 <label>Message</label>
                 <textarea name="message" />
             </section>
-            <input type="submit" className='submitButton' />
+            <button className='submitButton' onClick={sendEmail}> SUBMIT </button>
         </form>
     );
 }
