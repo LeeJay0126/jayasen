@@ -12,7 +12,7 @@ const Home = () => {
                 <Menu />
                 <div className="HomeHeaders">
                     <h1 className="HomeHeaderStart">
-                        <span>J</span>ay <span>. Asen</span>
+                        Jay . Asen
                     </h1>
                     <h1 className="HomeHeaderContent">Crafting Solutions </h1>
                     <h1 className="HomeHeaderContent">in the Language of Logic</h1>
