@@ -16,14 +16,14 @@ const LatestProjectComponent = () => {
                 </div>
                 <div className="homeProjectsFlex">
                     <Link to="/">
-                        <img src={tempImage} alt="tempImage" className="tempImage" />
+                        <img src={midam} alt="tempImage" className="tempImage" />
                     </Link>                    
-                    <h4 className="latestProjectTitle">NBA</h4>
+                    <h4 className="latestProjectTitle">TBA</h4>
                 </div>
             </div>
             <div className="HomeProjectLinkContainer">
                 <div className="HomeProjectLinkHelper">
-                    <Link to="/" className="HomeProjectLink">More Projects</Link>
+                    <Link to="/projects" className="HomeProjectLink">More Projects</Link>
                 </div>
             </div>
         </div>

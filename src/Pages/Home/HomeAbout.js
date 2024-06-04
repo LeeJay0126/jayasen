@@ -32,7 +32,7 @@ const HomeAbout = () => {
                         So, if you're looking for a frontend developer who is as passionate about crafting captivating user experiences as they are about writing clean, efficient code, you're in the right place. Click "More About Jay" button below to find out more
                     </div>
                     <div className="moreButtonContainer">
-                        <Link to="/"><button className="learnMoreButton"><p>More About Jay</p></button></Link>
+                        <Link to="/about"><button className="learnMoreButton"><p>More About Jay</p></button></Link>
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@ const HomeAbout = () => {
                         So, if you're looking for a frontend developer who is as passionate about crafting captivating user experiences as they are about writing clean, efficient code, you're in the right place. Click "More About Jay" button below to find out more
                     </div>
                     <div className="moreButtonContainer">
-                        <Link to="/"><button className="learnMoreButton"><p>More About Asen</p></button></Link>
+                        <Link to="/about"><button className="learnMoreButton"><p>More About Asen</p></button></Link>
                     </div>
                 </div>
                 <img src={asenProfile} alt="Asen's Profile" className="profileImage" />
