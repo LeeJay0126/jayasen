@@ -8,7 +8,8 @@ const LatestProjectComponent = () => {
     return (
         <div className="homeLatestProjectsContainer">
             <div className="homeProjectsFlex">
-                <ProjectItem src={project1[0]} alt={project1[1]} title={project1[2]} lang={project1[3]} />
+                <ProjectItem src={project1[0]} alt={project1[1]} title={project1[2]} lang={project1[3]} 
+                             progress={project1[4]} deploy={project1[5]} url={project1[6]}/>
             </div>
         </div>
     );

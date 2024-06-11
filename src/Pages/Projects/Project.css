@@ -83,3 +83,34 @@
     border-radius: 5px;
     font-size: 12px;
 }
+
+/* Project Card Status Section */
+.projectCardFlex {
+    display: flex;
+    padding: 10px 10px 0px 10px;
+    color: white;
+    gap: 10px;
+}
+
+.projectCardFlex:last-child {
+    padding-bottom: 30px;
+}
+
+.PCSpan {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.PCStatus {
+    padding: 2px 8px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.PCTrue {
+    background-color: rgb(62, 62, 190);
+}
+
