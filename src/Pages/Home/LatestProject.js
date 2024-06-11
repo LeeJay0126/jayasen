@@ -1,6 +1,5 @@
 import LatestProjectComponent from "./LatestProjectComponent";
 
-
 const LatestProject = () => {
 
     return (

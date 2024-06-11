@@ -1,30 +1,14 @@
 // Should get image to use for the latest projects
-import { Link } from "react-router-dom";
-import tempImage from "../../SharedComponents/Imgs/SoloImages/Jay/MoonNBack.jpg";
-import midam from "../../SharedComponents/Imgs/Logos/midam.png";
+import ProjectItemList from "../Projects/ProjectItemList";
+import ProjectItem from "../Projects/ProjectItem";
 
 const LatestProjectComponent = () => {
+    const project1 = ProjectItemList[0];
 
     return (
-        <div>
-            <div className="homeLatestProjectsContainer">
-                <div className="homeProjectsFlex">
-                    <Link to="/">
-                        <img src={midam} alt="tempImage" className="tempImage" />
-                    </Link>
-                    <h4 className="latestProjectTitle">Midam</h4>
-                </div>
-                <div className="homeProjectsFlex">
-                    <Link to="/">
-                        <img src={midam} alt="tempImage" className="tempImage" />
-                    </Link>                    
-                    <h4 className="latestProjectTitle">TBA</h4>
-                </div>
-            </div>
-            <div className="HomeProjectLinkContainer">
-                <div className="HomeProjectLinkHelper">
-                    <Link to="/projects" className="HomeProjectLink">More Projects</Link>
-                </div>
+        <div className="homeLatestProjectsContainer">
+            <div className="homeProjectsFlex">
+                <ProjectItem src={project1[0]} alt={project1[1]} title={project1[2]} lang={project1[3]} />
             </div>
         </div>
     );
