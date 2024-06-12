@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import LatestProjectComponent from "./LatestProjectComponent";
+import Project from "../Projects/Project";
 
 const LatestProject = () => {
 
@@ -11,7 +13,12 @@ const LatestProject = () => {
                 PROJECTS
             </h2>
             <div className="RedUnderLine"></div>
-            <LatestProjectComponent/>
+            <LatestProjectComponent />
+            <div className="HomeProjectLinkContainer">
+                <div className="HPLHelper">
+                    <Link to="/projects" element={<Project />} className="moreProjectsButton">More Projects</Link>
+                </div>
+            </div>
         </div>
     );
 

@@ -120,21 +120,20 @@
 .HomeProjectLinkContainer {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    justify-content: center;
+    margin: 50px 30px;
 }
 
-.HomeProjectLinkHelper {
-    width: 60%;
-    cursor: pointer;
+.HPLHelper {
+    width: 50%;
     display: flex;
-    align-items: center;
-    border: 1px white solid;
-    margin: 0 auto;
 }
 
-.HomeProjectLink {
+.HPLHelper:hover {
+    border: 1px solid red;
+}
+
+.moreProjectsButton {
     width: 100%;
     cursor: pointer;
     text-decoration: none;
@@ -144,8 +143,7 @@
     padding: 4%;
 }
 
-.HomeProjectLinkHelper :hover {
-    background-color: white;
+.moreProjectsButton :hover {
     color: black;
 }
 
