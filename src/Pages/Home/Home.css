@@ -121,16 +121,17 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 50px 30px;
+    margin: 50px 0px;
 }
 
 .HPLHelper {
     width: 50%;
     display: flex;
+    border: 1px solid black;
 }
 
 .HPLHelper:hover {
-    border: 1px solid red;
+    border-color: red;
 }
 
 .moreProjectsButton {
@@ -143,9 +144,6 @@
     padding: 4%;
 }
 
-.moreProjectsButton :hover {
-    color: black;
-}
 
 /**********************************************************************************************
     Home About us Section
@@ -281,6 +279,8 @@
         padding-top: 10px;
         letter-spacing: 1px;
     }
+
+    
 
     /**********************************************************************************************
         Home About us Section
