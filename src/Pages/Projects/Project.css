@@ -115,6 +115,10 @@
     background-color: rgb(62, 62, 190);
 }
 
+.PCFalse {
+    background-color: rgb(163, 42, 42);
+}
+
 /* Used to make project cards responsive */
 .PCResponsive {
     display: flex;
