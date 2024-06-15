@@ -4,32 +4,16 @@
 
 .ProjectsMain {
     width: 80%;
-    height: 85vh;
     margin: 0 auto;
 }
 
 /*
-    Temporary section
+    Project container
 */
-
-.tempUnavail {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.tempImg {
-    width: 20%;
-    height: 20%;
-    color: white;
-}
-
-.ProjectsTempHeading {
-    font-size: 7.5vw;
-    /* letter-spacing: 5px; */
-    color: white;
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 /*
@@ -90,10 +74,6 @@
     color: white;
     gap: 10px;
 }
-
-/* .projectCardFlex:last-child {
-    padding-bottom: 30px;
-} */
 
 .PCSpan {
     font-size: 15px;
@@ -236,10 +216,6 @@
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
-    .projectCardFlex:last-child {
-        padding-bottom: 20px;
-    }
 }
 
 /**********************************************************************************************
@@ -290,10 +266,6 @@
     .PCResponsive {
         flex-direction: column;
         padding-top: 10px;
-    }
-
-    .projectCardFlex:last-child {
-        padding-bottom: 20px;
     }
 }
 
@@ -347,9 +319,6 @@
         padding-top: 10px;
     }
 
-    .projectCardFlex:last-child {
-        padding-bottom: 20px;
-    }
 }
 
 /**********************************************************************************************
@@ -403,7 +372,4 @@
         padding-top: 5px;
     }
 
-    .projectCardFlex:last-child {
-        padding-bottom: 25px;
-    }
 }
