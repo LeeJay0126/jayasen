@@ -34,7 +34,7 @@ const ProjectItem = (props) => {
                     <h3 className="PCSpan">
                         Progress:
                     </h3>
-                    {props.progress ? <h3 className="PCStatus PCTrue">In Progress</h3> : <h3 className="PCStatus PCFalse">Completed</h3>}
+                    {props.progress ? <h3 className="PCStatus PCTrue">Completed</h3> : <h3 className="PCStatus PCFalse">In Progress</h3>}
                 </section>
                 <section className="projectCardFlex">
                     <h3 className="PCSpan">

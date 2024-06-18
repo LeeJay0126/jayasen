@@ -13,7 +13,8 @@
 .projectsContainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
 }
 
 /*
@@ -225,6 +226,7 @@
             /*
     Project Item Card section
     */
+
     .projectTitle {
         font-size: 20px;
         margin: 10px 0;
