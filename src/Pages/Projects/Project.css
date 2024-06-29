@@ -115,6 +115,11 @@
 ***********************************************************************************************/
 
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
+    .projectsContainer {
+        column-gap: 20px;
+        row-gap: 40px;
+    }
+
     /*
     Project Item Card section
     */
@@ -170,7 +175,8 @@
 }
 
 @media only screen and (max-width: 1200px) {
-        /*
+
+    /*
     Project Item Card section
     */
     .projectTitle {
@@ -223,7 +229,12 @@
     For viewport >= 992
 ***********************************************************************************************/
 @media only screen and (max-width: 992px) {
-            /*
+    .projectsContainer {
+        column-gap: 20px;
+        row-gap: 30px;
+    }
+
+    /*
     Project Item Card section
     */
 
@@ -275,7 +286,13 @@
     For viewport >= 768
 ***********************************************************************************************/
 @media only screen and (max-width: 768px) {
-                /*
+    .projectsContainer {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    /*
     Project Item Card section
     */
     .projectTitle {
@@ -328,7 +345,13 @@
 ***********************************************************************************************/
 
 @media only screen and (max-width: 600px) {
-                    /*
+    .projectsContainer {
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+    /*
     Project Item Card section
     */
     .projectTitle {
