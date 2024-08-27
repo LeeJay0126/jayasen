@@ -86,18 +86,16 @@
 }
 
 .PCStatus {
-    padding: 4px 10px;
-    border-radius: 15px;
     font-size: 15px;
     font-weight: 400;
 }
 
 .PCTrue {
-    background-color: rgb(62, 62, 190);
+    border-bottom: 1px solid rgb(62, 62, 190);
 }
 
 .PCFalse {
-    background-color: rgb(163, 42, 42);
+    border-bottom: 1px solid rgb(163, 42, 42);
 }
 
 /* Used to make project cards responsive */
@@ -155,14 +153,9 @@
     }
 
     .PCStatus {
-        padding: 4px 10px;
-        border-radius: 15px;
+        padding: 0 10px;
         font-size: 13px;
         font-weight: 400;
-    }
-
-    .PCTrue {
-        background-color: rgb(62, 62, 190);
     }
 
     /* Used to make project cards responsive */
@@ -207,15 +200,11 @@
     }
 
     .PCStatus {
-        padding: 4px 10px;
-        border-radius: 15px;
+        padding: 0 10px;
         font-size: 12px;
         font-weight: 400;
     }
 
-    .PCTrue {
-        background-color: rgb(62, 62, 190);
-    }
 
     /* Used to make project cards responsive */
     .PCResponsive {
@@ -266,14 +255,10 @@
     }
 
     .PCStatus {
-        padding: 4px 10px;
-        border-radius: 15px;
+        padding: 0 10px;
         font-size: 10px;
     }
 
-    .PCTrue {
-        background-color: rgb(62, 62, 190);
-    }
 
     /* Used to make project cards responsive */
     .PCResponsive {
@@ -323,14 +308,10 @@
     }
 
     .PCStatus {
-        padding: 3px 10px;
-        border-radius: 15px;
+        padding: 0 10px;
         font-size: 10px;
     }
 
-    .PCTrue {
-        background-color: rgb(62, 62, 190);
-    }
 
     /* Used to make project cards responsive */
     .PCResponsive {
@@ -366,7 +347,7 @@
     }
 
     .projectLanguageCircle {
-        padding: 5px 5px;
+        padding: 3px 3px;
         font-size: 8px;
     }
 
@@ -382,14 +363,10 @@
     }
 
     .PCStatus {
-        padding: 3px 10px;
-        border-radius: 15px;
+        padding: 0 10px;
         font-size: 10px;
     }
 
-    .PCTrue {
-        background-color: rgb(62, 62, 190);
-    }
 
     /* Used to make project cards responsive */
     .PCResponsive {
