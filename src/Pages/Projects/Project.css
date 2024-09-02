@@ -88,6 +88,7 @@
 .PCStatus {
     font-size: 15px;
     font-weight: 400;
+    margin-top: 3px;
 }
 
 .PCTrue {
@@ -161,6 +162,7 @@
     /* Used to make project cards responsive */
     .PCResponsive {
         display: flex;
+        flex-direction: column;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -168,6 +170,10 @@
 }
 
 @media only screen and (max-width: 1200px) {
+
+    .ProjectItemCard {
+        padding-bottom: 15px;
+    }
 
     /*
     Project Item Card section
@@ -201,7 +207,7 @@
 
     .PCStatus {
         padding: 0 10px;
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
     }
 

@@ -88,7 +88,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    justify-content: space-between;
 }
 
 .tempImage {
@@ -244,7 +244,6 @@
         font-size: 18px;
         font-weight: 200;
         letter-spacing: 8px;
-
     }
 
     /**********************************************************************************************
@@ -257,14 +256,12 @@
         letter-spacing: 1px;
     }
 
-    .HomeProjectHeader.later {
+   .HomeProjectHeader.later {
         font-size: 48px;
-    }
+    } 
 
     .homeLatestProjectsContainer {
-        padding-top: 80px;
-        display: flex;
-        justify-content: space-between;
+        gap: 30px;
     }
 
     .latestProjectTitle {
@@ -273,11 +270,7 @@
         letter-spacing: 1px;
     }
 
-    .homeLatestProjectsContainer {
-        gap: 30px;
-    }
 
-    
 
     /**********************************************************************************************
         Home About us Section
