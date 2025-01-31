@@ -3,7 +3,7 @@ import JayProfessional from "./Jay/JayProfessional";
 import JayWorkExperience from "./Jay/JayWorkExperience";
 import AsenProfessional from "./Asen/AsenProfessional";
 import AsenWorkExperience from "./Asen/AsenWorkExperience";
-import JayPicture from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.jpg"
+import JayPicture from "../../SharedComponents/Imgs/SoloImages/Jay/프로필사진.jpg"
 import AsenPicture from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg"
 
 const Resume = (props) => {

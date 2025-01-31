@@ -1,5 +1,8 @@
 const JayProfessional = [
-    ["Midam", "Frontend Developer", "2023-12", "Present", "Contract",
+    ["LLS Int", "Medical Interpreter", "2024-11", "Present", "Full-Time", 
+        [""]
+    ],    
+    ["Midam", "Frontend Developer", "2023-12", "2024-05", "Contract",
         ["Developed and designed a responsive restaurant website using React.js and Figma",
             "Generated 500+ test cases for the team's feature releases ",
             "Created QR code that links to restaurant menu to replace the physical menu",

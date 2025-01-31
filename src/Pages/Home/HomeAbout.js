@@ -1,4 +1,4 @@
-import jayProfile from "../../SharedComponents/Imgs/SoloImages/Jay/jayProfile1.jpg";
+import jayProfile from "../../SharedComponents/Imgs/SoloImages/Jay/프로필사진.jpg";
 import asenProfile from "../../SharedComponents/Imgs/SoloImages/Asen/asenProfile1.jpg";
 import { Link } from "react-router-dom";
 
