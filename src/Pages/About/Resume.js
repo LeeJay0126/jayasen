@@ -75,6 +75,21 @@ const Resume = (props) => {
                             </h3>
                         </div>
                     </div>
+                    <div className="Education">
+                        <div className="EducationRight">
+                            <h2>
+                                Simon Fraser University
+                            </h2>
+                            <h3>
+                                Criminology
+                            </h3>
+                        </div>
+                        <div className="EducationLeft">
+                            <h3>
+                                2017.09 ~ 2019.12
+                            </h3>
+                        </div>
+                    </div>
                 </aside>
             </section>
             <h2 className="resumeHeading">
