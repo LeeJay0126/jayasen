@@ -23,13 +23,19 @@ const HomeAbout = () => {
                     </div>
                     <div className="profileUnderLine" />
                     <div className="profileText">
-                        Hey there! I'm Jay Lee, a fullstack engineer with an unwavering passion for bringing digital dreams to life. I specialize in the art of creating dynamic, user-friendly websites and mobile applications using React and React Native.
+                        As a Fullstack Developer, I have hands-on experience in building responsive and high-performance web applications.
                         <br />
                         <br />
-                        My palette includes HTML, CSS, and JavaScript framework such as React and React Native.I believe that a website should not only meet its functional goals but also tell a captivating story, and I take pride in building engaging digital narratives.
+                        Currently, I work as a Medical Interpreter at LLS Interpreter, where I bridge communication gaps in critical healthcare settings between Korean and English speakers, facilitating accurate diagnosis and treatment.
                         <br />
                         <br />
-                        So, if you're looking for a frontend developer who is as passionate about crafting captivating user experiences as they are about writing clean, efficient code, you're in the right place. Click "More About Jay" button below to find out more
+                        In my previous role at WBH Construction, I contributed to the development of the company’s website, utilizing React.js, PostgreSQL, and Node.js to optimize user experience, traffic, and customer engagement.
+                        <br />
+                        <br />
+                        Additionally, at Midam Cafe, I developed a dynamic restaurant website using React.js, managed over 50,000 requests through AWS services, and implemented a QR code-based menu system for enhanced customer convenience.
+                        <br />
+                        <br />
+                        My technical expertise spans both frontend and backend development, enabling me to create efficient and scalable solutions.
                     </div>
                     <div className="moreButtonContainer">
                         <Link to="/about"><button className="learnMoreButton"><p>More About Jay</p></button></Link>
@@ -43,21 +49,24 @@ const HomeAbout = () => {
                             Hi, My Name Is
                         </h4>
                         <h4 className="homeProfileHeader later">
-                            Asen Woo Lee
+                            Jay Seung Yeon Lee
                         </h4>
                     </div>
                     <div className="profileUnderLine" />
                     <div className="profileText">
-                        Hey there! I'm Asen Lee, a fullstack engineer with an unwavering passion for bringing digital dreams to life. I specialize in the art of creating dynamic, user-friendly websites and mobile applications using React and React Native.
+                        In addition to my technical background, I have a strong foundation in customer-facing roles.
                         <br />
                         <br />
-                        My palette includes HTML, CSS, and JavaScript framework such as React and React Native.I believe that a website should not only meet its functional goals but also tell a captivating story, and I take pride in building engaging digital narratives.
+                        As a waiter at Midam Cafe, I honed my problem-solving and communication skills by managing customer expectations and ensuring smooth service during peak hours.
                         <br />
                         <br />
-                        So, if you're looking for a frontend developer who is as passionate about crafting captivating user experiences as they are about writing clean, efficient code, you're in the right place. Click "More About Jay" button below to find out more
+                        My experience as an English Instructor at Hongong University further strengthened my ability to communicate complex information clearly and foster positive interactions with diverse groups.
+                        <br />
+                        <br />
+                        These roles have refined my ability to work in fast-paced environments, ensuring both technical precision and customer satisfaction.
                     </div>
                     <div className="moreButtonContainer">
-                        <Link to="/about"><button className="learnMoreButton"><p>More About Asen</p></button></Link>
+                        <Link to="/about"><button className="learnMoreButton"><p>More About Jay</p></button></Link>
                     </div>
                 </div>
                 <img src={asenProfile} alt="Asen's Profile" className="profileImage" />
