@@ -1,7 +1,10 @@
 const JayProfessional = [
-    ["LLS Int", "Medical Interpreter", "2024-11", "Present", "Full-Time", 
-        [""]
-    ],    
+    ["LLS Int", "Medical Interpreter", "2024-11", "Present", "Full-Time",
+        ["Provide accurate and confidential interpretation services between Korean and English for 911 emergency calls, hospital patients, and pharmacy consultations.",
+            "Facilitate clear communication between medical professionals and non-English-speaking patients to ensure accurate diagnosis, treatment plans, and medication instructions.",
+            "Interpret medical terminology, patient histories, and emergency situations, ensuring understanding for all parties involved.",
+        ]
+    ],
     ["Midam", "Frontend Developer", "2023-12", "2024-05", "Contract",
         ["Developed and designed a responsive restaurant website using React.js and Figma",
             "Generated 500+ test cases for the team's feature releases ",
