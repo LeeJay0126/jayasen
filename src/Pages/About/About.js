@@ -24,8 +24,8 @@ const About = () => {
             </section>
             <section className="ResumeDisplayArea">
                 <div className="ResumeDisplayButtonContainer">
-                    <button className={resumeOwner ? "ResumeDisplayButtonN" : "ResumeDisplayButton"} onClick={()=>ResumeDisplayHandler(true)}>Jay</button>
-                    <button className={resumeOwner ? "ResumeDisplayButton" : "ResumeDisplayButtonN"} onClick={()=>ResumeDisplayHandler(false)}>Asen</button>
+                    <button className={resumeOwner ? "ResumeDisplayButtonN" : "ResumeDisplayButton"} onClick={()=>ResumeDisplayHandler(true)}>Professional</button>
+                    <button className={resumeOwner ? "ResumeDisplayButton" : "ResumeDisplayButtonN"} onClick={()=>ResumeDisplayHandler(false)}>CustServ</button>
                 </div>
                 <Resume resumeOwner={resumeOwner} />
             </section>
