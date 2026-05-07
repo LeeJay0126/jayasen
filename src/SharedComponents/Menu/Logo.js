@@ -1,18 +1,17 @@
 import { Link } from "react-router-dom";
-import Home from "../../Pages/Home/Home";
 
 
 const Logo = () => {
 
     return (
         <div className="logo">
-            <Link to="/" element={<Home />}>
+            <Link to="/">
                 <p className="logoLetters">
-                    Jay . Asen
+                    Jay Lee
                 </p>
             </Link>
             <p className="logoFooters">
-                LeeBrothers
+                QA Automation
             </p>
         </div >
     );

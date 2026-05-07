@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 72px;
 }
 
 .footerHead {
@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 1200px) {
     .footer {
-        padding-bottom: 70px;
+        padding-bottom: 82px;
     }
     
     .footerHead {
@@ -45,7 +45,7 @@
 ***********************************************************************************************/
 @media only screen and (max-width: 992px) {
     .footer {
-        padding-bottom: 50px;
+        padding-bottom: 64px;
     }
     
     .footerHead {
@@ -59,7 +59,7 @@
 ***********************************************************************************************/
 @media only screen and (max-width: 768px) {
     .footer {
-        padding-bottom: 30px;
+        padding-bottom: 48px;
     }
     
     .footerHead {
@@ -74,7 +74,7 @@
 
 @media only screen and (max-width: 600px) {
     .footer {
-        padding-bottom: 30px;
+        padding-bottom: 48px;
     }
     
     .footerHead {

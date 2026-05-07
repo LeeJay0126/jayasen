@@ -12,10 +12,10 @@ const Home = () => {
                 <Menu />
                 <div className="HomeHeaders">
                     <h1 className="HomeHeaderStart">
-                        Jay . Asen
+                        Jay Lee
                     </h1>
-                    <h1 className="HomeHeaderContent">Crafting Solutions </h1>
-                    <h1 className="HomeHeaderContent">in the Language of Logic</h1>
+                    <h1 className="HomeHeaderContent">QA Automation </h1>
+                    <h1 className="HomeHeaderContent">and SDET Portfolio</h1>
                 </div>
             </div>
             <LatestProject/>

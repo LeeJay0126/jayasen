@@ -23,7 +23,7 @@ const ResumeComponent = (props) => {
             </div>
             <div className="ResumeListRight">
                 <h4>
-                    {props.startDate} ~ {props.endDate}
+                    {props.startDate} - {props.endDate}
                 </h4>
             </div>
         </section>

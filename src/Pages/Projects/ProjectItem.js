@@ -1,49 +1,90 @@
+const ProjectItem = ({ project, variant = "default" }) => {
+    const {
+        image,
+        alt,
+        title,
+        category,
+        role,
+        summary,
+        technologies,
+        highlights,
+        metrics,
+        links,
+        accent,
+        mark,
+    } = project;
+    const isQaProject = category === "QA Automation Project";
+    const visibleHighlights = variant === "compact" ? highlights.slice(0, 2) : highlights;
 
-const ProjectItem = (props) => {
-
-    const programmingLanguages = (
-        props.lang.map((item) =>
-            <li className="projectLanguageCircle" key={item}>
-                {item}
-            </li>
-        )
+    const technologyTags = technologies.map((item) =>
+        <li className="projectLanguageCircle" key={item}>
+            {item}
+        </li>
     );
-    /*
-        [0] = src
-        [1] = alt
-        [2] = title
-        [3] = languages
-        [4] = progression status / true == in progress
-        [5] = deployment status / true == deployed
-        [6] = url of the project if the project is being deployed
-    */
+
+    const projectHighlights = visibleHighlights.map((item) =>
+        <li className="projectHighlight" key={item}>
+            {item}
+        </li>
+    );
+
+    const projectMetrics = metrics.map((item) =>
+        <li className="projectMetric" key={item}>
+            {item}
+        </li>
+    );
+
+    const projectLinks = links.length > 0
+        ? links.map((link) => (
+            <a className="projectLink" href={link.url} target="_blank" rel="noreferrer" key={link.label}>
+                {link.label}
+            </a>
+        ))
+        : (
+            <span className="projectLink projectLinkDisabled">
+                Case Study Coming Soon
+            </span>
+        );
+
+    const cardClassName = `ProjectItemCard ProjectItemCard-${accent || "default"} ${variant === "compact" ? "ProjectItemCardCompact" : ""}`;
+
     return (
-        <div className="ProjectItemCard">
-            <img src={require("../../SharedComponents/Imgs/Logos/" + props.src)}
-                alt={props.alt}
-                className="PICHero"
-            />
-            <h3 className="projectTitle">
-                {props.title}
-            </h3>
-            <div className="projectCircleContainer">
-                {programmingLanguages}
+        <article className={cardClassName}>
+            <div className="projectVisual">
+                {image ? (
+                    <img src={require("../../SharedComponents/Imgs/Logos/" + image)}
+                        alt={alt}
+                        className="PICHero"
+                    />
+                ) : (
+                    <div className="projectTextMark" aria-label={`${title} project mark`}>
+                        {mark}
+                    </div>
+                )}
             </div>
-            <div className="PCResponsive">
-                <section className="projectCardFlex">
-                    <h3 className="PCSpan">
-                        Progress:
-                    </h3>
-                    {props.progress ? <h3 className="PCStatus PCTrue">Completed</h3> : <h3 className="PCStatus PCFalse">In Progress</h3>}
-                </section>
-                <section className="projectCardFlex">
-                    <h3 className="PCSpan">
-                        Deployment:
-                    </h3>
-                    {props.deploy ? <h3 className="PCStatus PCTrue">Deployed</h3> : <h3 className="PCStatus PCFalse">Unavailable</h3>}
-                </section>
+            <div className="projectCardContent">
+                <p className={isQaProject ? "projectCategory projectCategoryQa" : "projectCategory"}>
+                    {category}
+                </p>
+                <h3 className="projectTitle">
+                    {title}
+                </h3>
+                <p className="projectRole">{role}</p>
+                <p className="projectSummary">{summary}</p>
+                <ul className="projectMetrics">
+                    {projectMetrics}
+                </ul>
+                <ul className="projectCircleContainer">
+                    {technologyTags}
+                </ul>
+                <ul className="projectHighlights">
+                    {projectHighlights}
+                </ul>
             </div>
-        </div>
+            <div className="projectAction">
+                {projectLinks}
+            </div>
+        </article>
     );
 };
 

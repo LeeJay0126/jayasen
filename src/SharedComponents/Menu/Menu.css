@@ -14,8 +14,8 @@
     position: sticky;
     top: 0;
 
-    max-width: 1700px;
-    padding-top: 50px;
+    max-width: 1120px;
+    padding: 32px 24px 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,16 +39,16 @@
 }
 
 .logoLetters {
-    font-size: 32px;
-    letter-spacing: 5px;
+    font-size: 28px;
+    letter-spacing: 3.5px;
     color: white;
     cursor: pointer;
     margin-bottom: 0;
 }
 
 .logoFooters {
-    font-size: 12px;
-    letter-spacing: 4px;
+    font-size: 11px;
+    letter-spacing: 3.2px;
     color: white;
     cursor: pointer;
 }
@@ -58,9 +58,9 @@
 ***********************************************************************************************/
 
 .optionList {
-    width: 30%;
+    width: 400px;
     min-width: 400px;
-    margin-right: 10%;
+    margin-right: 0;
 }
 
 .nav-list {
@@ -77,7 +77,7 @@
 .menuOptions a {
     text-decoration: none;
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 1.3px;
     text-transform: uppercase;
     color: white;
     font-weight: 400;
@@ -88,7 +88,7 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 13px;
-    letter-spacing: 2px;
+    letter-spacing: 1.3px;
     transition: all 0.3s;
     font-weight: 400;
 }
@@ -150,14 +150,27 @@
     list-style: none;
 }
 
-.menuIcon {
-    height: auto;
-    width: 30px;
-    color: white;
+.menuIconButton {
     position: fixed;
     top: 30px;
     right: 30px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    color: white;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
     cursor: pointer;
+}
+
+.menuIcon {
+    height: auto;
+    width: 24px;
+    color: currentColor;
     z-index: 3;
 }
 
@@ -168,26 +181,26 @@
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
     .menuBar {
         max-width: 1100px;
-        padding-top: 75px;
+        padding-top: 32px;
     }
 
     .logoLetters {
-        font-size: 32px;
-        letter-spacing: 4px;
+        font-size: 28px;
+        letter-spacing: 3.5px;
     }
 
     .logoFooters {
-        font-size: 12px;
-        letter-spacing: 4px;
+        font-size: 11px;
+        letter-spacing: 3.2px;
     }
 
     .menuOptions a {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1.5px;
     }
 
     .hoveredMenuOptions a {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1.5px;
     }
 }
@@ -199,7 +212,7 @@
     }
 
     .logoLetters {
-        font-size: 30px;
+        font-size: 31px;
         letter-spacing: 4px;
     }
 
@@ -209,12 +222,12 @@
     }
 
     .menuOptions a {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 
     .hoveredMenuOptions a {
-        font-size: 12px;
+        font-size: 13px;
         letter-spacing: 1px;
     }
 }
@@ -229,7 +242,7 @@
     }
 
     .logoLetters {
-        font-size: 24px;
+        font-size: 26px;
         letter-spacing: 3px;
     }
 
@@ -239,12 +252,12 @@
     }
 
     .menuOptions a {
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
 
     .hoveredMenuOptions a {
-        font-size: 11px;
+        font-size: 12px;
         letter-spacing: 1px;
     }
 }
@@ -259,7 +272,7 @@
     }
 
     .logoLetters {
-        font-size: 20px;
+        font-size: 22px;
         letter-spacing: 2.5px;
     }
 
@@ -289,7 +302,7 @@
 @media only screen and (max-width: 600px) {
 
     .logoLetters {
-        font-size: 15px;
+        font-size: 17px;
         letter-spacing: 2px;
     }
 

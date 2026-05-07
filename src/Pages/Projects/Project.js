@@ -8,8 +8,7 @@ import ProjectItem from "./ProjectItem";
 const Project = () => {
 
     const ProjectComponents = ProjectItemList.map((proj) =>(
-        <ProjectItem src={proj[0]} alt={proj[1]} title={proj[2]} lang={proj[3]}
-        progress={proj[4]} deploy={proj[5]} url={proj[6]} key={proj[2]}/>
+        <ProjectItem project={proj} key={proj.title}/>
     ));
 
     return (

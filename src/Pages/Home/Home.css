@@ -13,7 +13,7 @@
 .HomeHeroSection {
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65)), url("../../SharedComponents/Imgs/SoloImages/Jay/whenNothingGoesRight.jpg");
     width: 100%;
-    min-height: 750px;
+    min-height: 620px;
     background-position: 50% 90%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,15 +27,15 @@
 
 .HomeHeaders {
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
     color: white;
 }
 
 .HomeHeaderStart {
-    letter-spacing: 6px;
-    font-size: 48px;
+    letter-spacing: 4px;
+    font-size: 44px;
     font-weight: 400;
-    padding-bottom: 5vw;
+    padding-bottom: 48px;
     text-transform: uppercase;
 }
 
@@ -44,9 +44,9 @@
 }
 
 .HomeHeaderContent {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 200;
-    letter-spacing: 8px;
+    letter-spacing: 5px;
     font-family: 'Corben', serif;
     text-transform: uppercase;
 
@@ -64,27 +64,27 @@
     Home Project Section
 ***********************************************************************************************/
 .LatestProjectContainer {
-    width: 80%;
-    padding: 40px 0;
+    width: min(100% - 48px, 1120px);
+    padding: 36px 0;
     margin: 0 auto;
 }
 
 .HomeProjectHeader {
     color: white;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     text-align: center;
     padding-top: 12px;
     letter-spacing: 1px;
 }
 
 .HomeProjectHeader.later {
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .homeLatestProjectsContainer {
-    padding-top: 80px;
-    width: 80%;
+    padding-top: 48px;
+    width: min(100%, 860px);
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -114,11 +114,11 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 36px 0px;
 }
 
 .HPLHelper {
-    width: 50%;
+    width: min(100%, 360px);
     display: flex;
     border: 1px solid black;
 }
@@ -143,53 +143,113 @@
 ***********************************************************************************************/
 
 .homeProfile {
-    display: flex;
-    width: 90%;
+    display: grid;
+    grid-template-columns: minmax(340px, 380px) minmax(0, 1fr);
+    align-items: stretch;
+    width: min(100% - 48px, 1120px);
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 48px;
     color: white;
-    padding-bottom: 60px;
+    padding-bottom: 48px;
+    gap: 56px;
+}
+
+.profileImageFrame {
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.045);
+    box-shadow: 0 22px 48px rgba(255, 255, 255, 0.055);
 }
 
 .profileImage {
-    width: 30%;
-    height: auto;
-    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
 }
 
 .homeProfileContainer {
-    width: 60%;
+    flex: 1;
+}
+
+.homeProfileEyebrow {
+    color: rgb(223, 46, 46);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
 }
 
 .homeProfileHeaderContainer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .homeProfileHeader {
-    font-size: 20px;
-    font-weight: 100;
-}
-
-.homeProfileHeader.later {
-    font-size: 48px;
+    font-size: 36px;
+    font-weight: 400;
+    padding-top: 8px;
 }
 
 .profileUnderLine {
-    width: 60%;
+    width: min(100%, 520px);
     align-self: center;
     height: 1px;
     background-color: rgb(77, 77, 77);
+    margin-top: 18px;
+}
+
+.profileLead {
+    max-width: 760px;
+    color: rgb(238, 238, 238);
+    font-size: 18px;
+    line-height: 1.55;
+    padding-top: 22px;
+}
+
+.qaHighlightGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 28px;
+}
+
+.qaHighlightCard {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.045);
+}
+
+.qaHighlightCard h5 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.qaHighlightCard p {
+    color: rgb(220, 220, 220);
+    font-size: 13px;
+    line-height: 1.45;
+    padding-top: 8px;
 }
 
 /*Might have to change fonts later*/
 .profileText {
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    margin: 3vw 2vw 2vw 1vw;
-    line-height: 30px;
-    font-size: 20px;
-    letter-spacing: 1.5px;
+    display: grid;
+    gap: 14px;
+    margin: 24px 0 20px;
+    line-height: 1.6;
+    font-size: 16px;
+    letter-spacing: 0.6px;
 }
 
 .moreButtonContainer {
@@ -201,8 +261,8 @@
 }
 
 .learnMoreButton {
-    width: 20vw;
-    height: 8vw;
+    min-width: 190px;
+    height: 52px;
     background-color: transparent;
     color: white;
     cursor: pointer;
@@ -212,7 +272,7 @@
 }
 
 .learnMoreButton p {
-    font-size: 25px;
+    font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -232,18 +292,18 @@
 @media only screen and (min-width: 1200px) and (max-width: 1700px) {
 
     .HomeHeaders {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .HomeHeaderStart {
-        letter-spacing: 6px;
-        font-size: 48px;
+        letter-spacing: 4px;
+        font-size: 44px;
     }
 
     .HomeHeaderContent {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 200;
-        letter-spacing: 8px;
+        letter-spacing: 5px;
     }
 
     /**********************************************************************************************
@@ -251,13 +311,13 @@
     ***********************************************************************************************/
 
     .HomeProjectHeader {
-        font-size: 24px;
+        font-size: 18px;
         padding-top: 12px;
         letter-spacing: 1px;
     }
 
    .HomeProjectHeader.later {
-        font-size: 48px;
+        font-size: 36px;
     } 
 
     .homeLatestProjectsContainer {
@@ -277,35 +337,29 @@
     ***********************************************************************************************/
 
     .homeProfile {
-        padding-bottom: 60px;
-    }
-
-    .profileImage {
-        width: 30%;
+        padding-bottom: 48px;
+        grid-template-columns: minmax(300px, 340px) minmax(0, 1fr);
+        gap: 44px;
     }
 
     .homeProfileContainer {
-        width: 80%;
+        width: auto;
     }
 
     .homeProfileHeader {
-        font-size: 18px;
-    }
-
-    .homeProfileHeader.later {
-        font-size: 38px;
+        font-size: 34px;
     }
 
     /*Might have to change fonts later*/
     .profileText {
-        margin: 3vw 2vw 2vw 2vw;
-        line-height: 25px;
+        margin: 28px 0 20px;
+        line-height: 1.6;
         font-size: 16px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.6px;
     }
 
     .learnMoreButton p {
-        font-size: 25px;
+        font-size: 16px;
     }
 }
 
@@ -316,7 +370,7 @@
 
     .HomeHeaderStart {
         letter-spacing: 6px;
-        font-size: 42px;
+        font-size: 44px;
     }
 
     .HomeHeaderContent {
@@ -358,14 +412,12 @@
 
     .homeProfile {
         padding-bottom: 60px;
+        grid-template-columns: minmax(260px, 300px) minmax(0, 1fr);
+        gap: 36px;
     }
 
     .homeProfileHeader {
-        font-size: 16px;
-    }
-
-    .homeProfileHeader.later {
-        font-size: 32px;
+        font-size: 30px;
     }
 
     /*Might have to change fonts later*/
@@ -398,7 +450,7 @@
 
     .HomeHeaderStart {
         letter-spacing: 6px;
-        font-size: 40px;
+        font-size: 42px;
     }
 
     .HomeHeaderContent {
@@ -438,21 +490,15 @@
 
     .homeProfile {
         padding-bottom: 60px;
-    }
-
-    .profileImage {
-        width: 30%;
+        grid-template-columns: minmax(220px, 260px) minmax(0, 1fr);
+        gap: 28px;
     }
 
     .homeProfileContainer {
-        width: 80%;
+        width: auto;
     }
 
     .homeProfileHeader {
-        font-size: 12px;
-    }
-
-    .homeProfileHeader.later {
         font-size: 24px;
     }
 
@@ -488,7 +534,7 @@
 
     .HomeHeaderStart {
         letter-spacing: 6px;
-        font-size: 40px;
+        font-size: 42px;
     }
 
     .HomeHeaderContent {
@@ -528,16 +574,18 @@
 
     .homeProfile {
         padding-bottom: 40px;
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
 
     .homeProfile:last-child {
         flex-direction: column-reverse;
     }
 
-    .profileImage {
-        width: 60%;
+    .profileImageFrame {
+        width: min(72%, 260px);
+        aspect-ratio: 1708 / 2560;
+        min-height: 0;
         padding-bottom: 30px;
     }
 
@@ -545,15 +593,15 @@
         width: 100%;
     }
 
+    .qaHighlightGrid {
+        grid-template-columns: 1fr;
+    }
+
     .homeProfileContainer {
         width: 100%;
     }
 
     .homeProfileHeader {
-        font-size: 12px;
-    }
-
-    .homeProfileHeader.later {
         font-size: 32px;
     }
 
@@ -589,24 +637,26 @@
 
     .HomeHeroSection {
         background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.65)), url("../../SharedComponents/Imgs/SoloImages/Jay/whenNothingGoesRight.jpg");
-        min-height: 700px;
+        min-height: 560px;
         background-position: 50% 50%;
         background-size: cover;
         background-attachment: scroll;
     }
 
     .HomeHeaders {
-        padding-top: 200px;
+        padding-top: 150px;
     }
 
     .HomeHeaderStart {
-        letter-spacing: 6px;
-        font-size: 32px;
+        letter-spacing: 3px;
+        font-size: 34px;
+        padding-bottom: 34px;
     }
 
     .HomeHeaderContent {
-        font-size: 12px;
-        letter-spacing: 5px;
+        font-size: 13px;
+        letter-spacing: 3px;
+        line-height: 1.8;
     }
 
     /**********************************************************************************************
@@ -622,7 +672,7 @@
     }
 
     .homeLatestProjectsContainer {
-        padding-top: 60px;
+        padding-top: 36px;
     }
 
     .latestProjectTitle {
@@ -645,21 +695,35 @@
 
     .homeProfile {
         padding-bottom: 40px;
-        flex-direction: column;
-        align-items: center;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: min(100% - 32px, 1120px);
+        gap: 24px;
     }
 
     .homeProfile:last-child {
         flex-direction: column-reverse;
     }
 
-    .profileImage {
-        width: 60%;
-        padding-bottom: 40px;
+    .profileImageFrame {
+        width: min(72%, 260px);
+        aspect-ratio: 1708 / 2560;
+        min-height: 0;
+        padding-bottom: 0;
     }
 
     .profileUnderLine {
         width: 100%;
+    }
+
+    .qaHighlightGrid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-top: 24px;
+    }
+
+    .qaHighlightCard {
+        padding: 14px;
     }
 
     .homeProfileContainer {
@@ -667,24 +731,36 @@
     }
 
     .homeProfileHeader {
-        font-size: 10px;
+        font-size: 26px;
     }
 
-    .homeProfileHeader.later {
-        font-size: 20px;
+    .homeProfileEyebrow {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .homeProfileHeaderContainer {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .profileLead {
+        font-size: 15px;
+        text-align: center;
     }
 
     /*Might have to change fonts later*/
     .profileText {
-        margin: 3vw 2vw 2vw 2vw;
-        line-height: 22px;
-        font-size: 11px;
-        letter-spacing: 1.5px;
+        margin: 24px 0 20px;
+        line-height: 1.65;
+        font-size: 14px;
+        letter-spacing: 0.5px;
     }
 
     .learnMoreButton {
-        width: 300px;
-        padding: 20px 40px;
+        width: min(100%, 240px);
+        min-width: auto;
+        padding: 14px 24px;
         height: auto;
     }
 

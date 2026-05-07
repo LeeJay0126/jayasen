@@ -6,26 +6,22 @@ const ContactUsMain = () => {
         <section className="ContactUsMain">
             <section className="ContactUsHero">
                 <div>
+                    <p className="ContactEyebrow">Open to QA / SDET opportunities</p>
                     <h2 className="ContactUsHeading">
-                        <span>Get</span> in Touch <span>With</span> Us
+                        Let's talk about automation, testing, and software quality.
                     </h2>
-                    <h2 className="ContactUsHeading">
-                        Via <span>LinkedIn</span> or <span>Email</span>
-                    </h2>
+                    <p className="ContactIntroText">
+                        Reach out for QA automation roles, SDET opportunities, collaboration, or questions about my project work.
+                    </p>
                 </div>
-                <aside>
-                    <div className="LinkedInContainer">
+                <aside className="ContactCard">
+                    <a className="LinkedInContainer" href="https://www.linkedin.com/in/jay-lee-b3b46a221/" target="_blank" rel="noreferrer">
                         <IoLogoLinkedin className="ContactUsLinkedIn" />
-                        <a className="LinkedInFig" href="https://www.linkedin.com/in/jay-lee-b3b46a221/">
-                            <figcaption> Jay's LinkedIn</figcaption>
-                        </a>
-                    </div>
-                    <div className="LinkedInContainer">
-                        <IoLogoLinkedin className="ContactUsLinkedIn" />
-                        <a className="LinkedInFig" href="https://www.linkedin.com/in/asen-lee-a74730163/">
-                            <figcaption> Asen's LinkedIn</figcaption>
-                        </a>
-                    </div>
+                        <span>Jay's LinkedIn</span>
+                    </a>
+                    <a className="ContactEmailLink" href="mailto:jay.asen.lee@gmail.com">
+                        jay.asen.lee@gmail.com
+                    </a>
                 </aside>
             </section>
             <section className="EmailSection">

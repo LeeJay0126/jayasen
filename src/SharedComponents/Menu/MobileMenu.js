@@ -1,10 +1,6 @@
 import { useState } from "react";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { Link } from "react-router-dom";
-import About from "../../Pages/About/About";
-import Home from "../../Pages/Home/Home";
-import ContactUs from "../../Pages/ContactUs/ContactUs";
-import Project from "../../Pages/Projects/Project";
 
 
 const MobileMenu = () => {
@@ -14,18 +10,24 @@ const MobileMenu = () => {
         setMenu(!displayMenu);
     }
 
+    const closeMenu = () => {
+        setMenu(false);
+    }
+
     return (
         <div className="mobileMenu">
-            <AiOutlineMenuUnfold className="menuIcon" onClick={mobileMenuHandler} />
+            <button className="menuIconButton" type="button" onClick={mobileMenuHandler} aria-label="Toggle navigation menu">
+                <AiOutlineMenuUnfold className="menuIcon" />
+            </button>
             <div className={displayMenu ? "sideBar sideBarActive" : "sideBar"}>
                 <ul>
-                    <Link to="/" element={<Home />}><li>HOME</li></Link>
-                    <Link to="/projects" element={<Project />}><li>PROJECT</li></Link>
-                    <Link to="/about" element={<About />}><li>RESUME</li></Link>
-                    <Link to="/contact" element={<ContactUs />}><li>CONTACT US</li></Link>
+                    <Link to="/" onClick={closeMenu}><li>HOME</li></Link>
+                    <Link to="/projects" onClick={closeMenu}><li>PROJECT</li></Link>
+                    <Link to="/about" onClick={closeMenu}><li>RESUME</li></Link>
+                    <Link to="/contact" onClick={closeMenu}><li>CONTACT</li></Link>
                 </ul>
                 <h2 className="sideBarHeading">
-                    J<span>ay . </span>Asen
+                    J<span>ay </span>Lee
                 </h2>
             </div>
         </div>

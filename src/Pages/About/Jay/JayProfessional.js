@@ -1,31 +1,32 @@
 const JayProfessional = [
-    ["LLS Int", "Medical Interpreter", "2024-11", "Present", "Full-Time",
-        ["Provide accurate and confidential interpretation services between Korean and English for 911 emergency calls, hospital patients, and pharmacy consultations.",
-            "Facilitate clear communication between medical professionals and non-English-speaking patients to ensure accurate diagnosis, treatment plans, and medication instructions.",
-            "Interpret medical terminology, patient histories, and emergency situations, ensuring understanding for all parties involved.",
+    ["VerseByVerse", "QA Automation / Full-Stack Test Project", "2025-01", "Present", "Production Project",
+        ["Built Playwright API automation for a production React, Node.js, Express, and MongoDB Bible study platform.",
+            "Designed 300+ manual, API, database, security, and regression test cases across authentication, Bible reading, notes, communities, notifications, and data integrity workflows.",
+            "Automated authenticated API coverage for notes CRUD, community creation, post creation, validation, filtering, search, and unauthenticated access.",
+            "Implemented reusable session helpers, test data cleanup, preflight checks, and HTML/JSON/JUnit reporting for CI-ready execution.",
+            "Documented reproducible defects and validation evidence for authentication, community permissions, notifications, layout behavior, and notes workflows."]
+    ],
+    ["Pixieset", "SDET / Quality Assurance Engineer", "2022-01", "2022-09", "Intern",
+        ["Automated 100+ smoke and regression tests using TestCafe and JavaScript to support faster, safer feature releases.",
+            "Designed 500+ manual and backend test cases covering happy paths, edge cases, validation rules, and release-critical workflows.",
+            "Performed API, database/SQL, and functional testing to identify defects, verify fixes, and reduce regression risk.",
+            "Produced bi-weekly QA reports summarizing test coverage, defects, release risks, and sprint-level quality trends.",
         ]
     ],
-    ["Midam", "Frontend Developer", "2023-12", "2024-05", "Contract",
-        ["Developed and designed a responsive restaurant website using React.js and Figma",
-            "Generated 500+ test cases for the team's feature releases ",
-            "Created QR code that links to restaurant menu to replace the physical menu",
-            "Hosted website application through AWS S3 and Route53 handling over 50,000+ requests"]
+    ["Pacific Western Brewing", "Web Developer", "2025-11", "Present", "Contract",
+        ["Maintain production WordPress websites across multiple domains, supporting content updates, page changes, and layout consistency.",
+            "Perform UI checks and regression-style validation after updates to reduce production defects and preserve site stability."]
     ],
-    ["WBH Ltd", "Web Developer", "2023-08", "2023-12", "Contract, Part Time",
-        ["Developed a responsive company website using React, PostgreSQL, Express, and Node.js  for better traffic and inquiry emails",
-            "Designed the layout and workflow of the company's website using Figma",
-            "Managed team progression in a mixed style of Kanban and Scrum"]
+    ["WBH Construction", "Frontend Developer", "2023-08", "2024-01", "Contract",
+        ["Refactored legacy frontend code into reusable React components, improving maintainability and reducing future change risk.",
+            "Implemented multilingual support with i18n and validated responsive UI behavior across key pages and user flows."]
     ],
-    ["Pixieset", "SDET", "2022-05", "2022-09", "Intern",
-        ["Automated 300+ smoke test cases and 50+ Regression test cases to Pixieset's automation codebase",
-            "Maintained upkeep of features in the company by running weekly smoke testing and regression testing after every feature changes",
-            "Contributed to Studio Manager's end-to-end feature release testing"]
+    ["Midam Cafe", "Frontend Developer", "2024-01", "2024-05", "Contract",
+        ["Delivered a responsive React website hosted on AWS S3 and Route 53, including a QR-based digital menu flow.",
+            "Validated layout, navigation, and menu behavior across desktop and mobile breakpoints before rollout."]
     ],
-    ["Pixieset", "QA Engineer", "2022-01", "2022-05", "Intern",
-        ["Ensured team's stable feature release through manual and database testing",
-            "Generated 500+ test cases for the team's feature releases ",
-            "Contributed actively in sprint retrospectives and planning to collaboratively work towards enhanced team culture and practices",
-            "Generated bi-weekly team report for sprint retrospectives to better communicate and forecast team's progression"]
+    ["LLS Interpreter", "Medical Interpreter - Korean", "2024-10", "2026-01", "Full-Time",
+        ["Provide accurate Korean-English interpretation in medical, emergency, and pharmacy contexts requiring confidentiality, precision, and calm communication."]
     ]
 ];
 
